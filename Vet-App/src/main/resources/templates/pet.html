@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"  xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <title>Food</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link th:rel="stylesheet" th:href="@{/assets/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.min.css}"/>
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<style>
+.dropButon{
+  margin-right:20px;
+}
+.write{
+  font-size:16px;
+}
+.navbar{
+   margin-bottom: 1rem;
+}
+.mid{
+   text-align: center;
+}
+.dropButon{
+   margin-right:20px;
+}
+.write{
+   font-size:16px;
+}
+.div{
+  display:flex;
+  justify-content:center;
+  margin-left:350px;
+ }
+.ortala{
+ margin-left:auto;
+ margin-right:auto;
+}
+</style>
+<body>
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <a class="navbar-brand  " href="#" style="color:#fff font-family:Arial Black"><strong>Tracking Weight Application</strong> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link write" th:href="@{/index}" style="margin-right:5px" ><strong> New Records</strong> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link write"  th:href="@{/pet}" style="margin-right:5px"><strong> Pet </strong></a>
+            </li>
+
+        </ul>
+    </div>
+    <form class="d-flex ms-auto">
+        <form method="post">
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <div class="dropButon">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"
+                               href="#"
+                               id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true"
+                               aria-expanded="false">
+                                <i class='far fa-user-circle' style='font-size:36px'  ></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+                                <a class="dropdown-item" th:href="@{/index}"><span class="glyphicon glyphicon-home"></span> Home</a>
+                                <a class="dropdown-item" th:href="@{/settings}"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+                                <a class="dropdown-item"  sec:authorize="isAuthenticated()" th:href="@{/logout}"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </form>
+    </form>
+</nav>
+<br>
+<div class="mid">
+    <form th:action="@{/pet}">
+        &nbsp;
+        <img src="https://img.icons8.com/color-glass/48/undefined/healthy-food-calories-calculator.png"/>
+        &nbsp;
+        <input type="text"  placeholder="Search please" name="keyword" id="keyword" size="50" th:value="${keyword}" required />
+        &nbsp;
+        <input type="submit" class="btn btn-info" value="Search" />
+        &nbsp;
+    </form>
+</div>
+
+
+
+<div sec:authorize="hasAnyAuthority('ROLE_ADMIN')">
+
+    <center><p><a th:href="@{'/add_pet'}">Add New Please</a></p></center>
+
+</div>
+
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="ortala">
+                <div class="table-wrapper">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>age</th>
+                            <th>type</th>
+                            <th>breed</th>
+                            <th>desc</th>
+                            <th sec:authorize="hasAnyAuthority('ROLE_ADMIN','ROLE_USER')"></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                       <tr  th:each="pet : ${pet_list}">
+                            <td th:text="${pet.pet_name}"></td>
+                            <td th:text="${pet.pet_age}"></td>
+                            <td th:text="${pet.pet_type}"></td>
+                            <td th:text="${pet.pet_breed}"></td>
+                            <td th:text="${pet.pet_description}"></td>
+                            <td>
+                                <div sec:authorize="hasAnyAuthority('ROLE_ADMIN')">
+
+                                    <a th:href="@{'/p_edit/' + $pet.id}} " title="Edit" data-toggle="tooltip" ><i class="material-icons"  style="margin-left:40%;margin-right: 40%;width: 72px;">&#xE254;</i></a>
+                                </div>
+                            </td>
+
+
+
+                            <td>
+                                <div sec:authorize="hasAnyAuthority('ROLE_ADMIN')">
+                                    <a   th:data-confirm-delete="|Are you sure you want to delete this food ?|"
+                                         onclick="if (!confirm(this.getAttribute('data-confirm-delete'))) return false"
+                                         th:href="@{'/p_delete/' + ${pet.id}}" title="Delete"  data-toggle="tooltip"  style="font-size:5px; margin-left:40%;margin-right: 40%;width: 72px; color:red;" ><i class="material-icons">&#xE872;</i></a>
+                                </div> </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<center>
+    <a href="#top"><img src="https://img.icons8.com/external-kmg-design-detailed-outline-kmg-design/55/000000/external-up-arrow-kmg-design-detailed-outline-kmg-design.png" /></a>
+</center>
+</body>
+</html>

@@ -42,21 +42,29 @@ public class SecurityConfiguration  extends WebSecurityConfigurerAdapter {
     //kendiliğinden login ekranı gelmemesi için kullanıyoruz,yoksa kendiliğinden login sayfasını açıyor
     @Override
     protected  void configure(HttpSecurity http) throws Exception{
-        http.authorizeRequests().antMatchers(
+        http.authorizeRequests()
+                .antMatchers(
                         "/**",
                         "/js/**",
-                        "/css/**", "/img/**").permitAll()
+                        "/css/**", "/img/**")
+
+                .permitAll()
+                .antMatchers("/delete/**").hasAnyAuthority("ROLE_USER","ROLE_ADMIN")
+                .antMatchers("/edit/**").hasAnyAuthority("ROLE_USER","ROLE_ADMIN")
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
                 .loginPage("/login")
                 .permitAll()
                 .and()
+
                 .logout()
                 .invalidateHttpSession(true)
                 .clearAuthentication(true)
                 .logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
                 .logoutSuccessUrl("/login?logout")
-                .permitAll();
+                .permitAll()
+                .and()
+                .rememberMe().userDetailsService(userService).and();
     }
 }

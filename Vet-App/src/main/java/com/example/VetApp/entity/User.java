@@ -2,6 +2,7 @@ package com.example.VetApp.entity;
 
 import javax.persistence.*;
 import java.util.Collection;
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -41,8 +42,7 @@ public class User {
 
     }
 
-    public User(Long id, String fullName, String email, String password, String telNumber, String contactInformation, Collection<Role> roles) {
-        this.id = id;
+    public User( String fullName, String email, String password, String telNumber, String contactInformation, Collection<Role> roles) {
         this.fullName = fullName;
         this.email = email;
         this.password = password;
@@ -50,6 +50,9 @@ public class User {
         this.contactInformation = contactInformation;
         this.roles = roles;
     }
+
+
+
 
     public Long getId() {
         return id;

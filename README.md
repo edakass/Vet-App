@@ -6,3 +6,6 @@
 - Hem admin hem de Kullanıcı için farklı ekranlar içermektedir.
 
 - Eğer ki daha sonra başka bir kütüphaneye ihtiyacımız olursa ise Maven sitesine giriyoruz ve ihtiyacımız olan kütüphaneyi aratıyoruz. https://mvnrepository.com/
+- Projemi yaparken Spring Initialzr'dan gerekli işlemleri yapıyorum. Spring Initialzr, istediğimiz gerekliliklere göre bize temel konfigürasyonları hazır bir Spring projesi üretip veren bir araçtır.  https://start.spring.io/
+- 
+- 

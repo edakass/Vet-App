@@ -13,4 +13,7 @@
 
 ![image](https://user-images.githubusercontent.com/61595808/193001399-d0ebebb1-985c-422a-b88f-d72e65bffb9c.png)
 
-- h
+- Şimdi ise veritabanını oluşturuyorum.  ismi : vet-app
+- application.properties 'te eklemem gerekenleri ekliyorum,burada web de hangi url de kullanacağımı,veritabanım için yolunu gibi bilgiler eklediğim kısım 
+![image](https://user-images.githubusercontent.com/61595808/193003476-7c184009-0d3f-4dee-8bc5-75397ca29ab2.png)
+

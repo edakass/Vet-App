@@ -20,4 +20,10 @@
 - Programımızı çalıştırırken ilk bu ekrandan çalıştırmamız gerekiyor.
 ![image](https://user-images.githubusercontent.com/61595808/193004965-c250e8ef-13a5-4921-a8cb-8c74d8a3ce97.png)
 
-- ![image](https://user-images.githubusercontent.com/61595808/193019637-851bc0a8-8ad2-4593-9697-5a7fbd8a0fe5.png)
+- ![image](https://user-images.githubusercontent.com/61595808/193110313-9f68dcdc-a1ae-45b1-8b40-a57aee3f1f46.png)
+
+- ![image](https://user-images.githubusercontent.com/61595808/193110439-68f3ccff-734b-4193-ad20-783951e5bd4f.png)
+
+- ![image](https://user-images.githubusercontent.com/61595808/193110470-4b707d8c-dbe9-4f5f-b9cd-f40581381d03.png)
+
+

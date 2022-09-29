@@ -19,3 +19,5 @@
 
 - Programımızı çalıştırırken ilk bu ekrandan çalıştırmamız gerekiyor.
 ![image](https://user-images.githubusercontent.com/61595808/193004965-c250e8ef-13a5-4921-a8cb-8c74d8a3ce97.png)
+
+- ![image](https://user-images.githubusercontent.com/61595808/193019637-851bc0a8-8ad2-4593-9697-5a7fbd8a0fe5.png)

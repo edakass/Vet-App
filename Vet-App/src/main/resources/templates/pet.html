@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org"  xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
 <head>
-    <title>Food</title>
+    <title>Pet</title>
     <meta charset="UTF-8">
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -58,9 +58,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link write" th:href="@{/index}" style="margin-right:5px" ><strong> New Records</strong> <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item">
                 <a class="nav-link write"  th:href="@{/pet}" style="margin-right:5px"><strong> Pet </strong></a>
             </li>
@@ -97,7 +94,7 @@
 <div class="mid">
     <form th:action="@{/pet}">
         &nbsp;
-        <img src="https://img.icons8.com/color-glass/48/undefined/healthy-food-calories-calculator.png"/>
+        <img src="https://img.icons8.com/external-flat-geotatah/50/000000/external-pet-pet-lover-society-flat-flat-geotatah-30.png"/>
         &nbsp;
         <input type="text"  placeholder="Search please" name="keyword" id="keyword" size="50" th:value="${keyword}" required />
         &nbsp;
@@ -131,12 +128,12 @@
                         </tr>
                         </thead>
                         <tbody>
-                       <tr  th:each="pet : ${pet_list}">
-                            <td th:text="${pet.pet_name}"></td>
-                            <td th:text="${pet.pet_age}"></td>
-                            <td th:text="${pet.pet_type}"></td>
-                            <td th:text="${pet.pet_breed}"></td>
-                            <td th:text="${pet.pet_description}"></td>
+                        <tr  th:each="pet : ${pet_list}">
+                            <td th:text="${pet.petName}"></td>
+                            <td th:text="${pet.petAge}"></td>
+                            <td th:text="${pet.petType}"></td>
+                            <td th:text="${pet.petBreed}"></td>
+                            <td th:text="${pet.petDescription}"></td>
                             <td>
                                 <div sec:authorize="hasAnyAuthority('ROLE_ADMIN')">
 

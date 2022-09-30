@@ -27,3 +27,12 @@
 - ![image](https://user-images.githubusercontent.com/61595808/193110470-4b707d8c-dbe9-4f5f-b9cd-f40581381d03.png)
 
 
+
+
+
+
+
+Not : application properties i yml ye çevirmek için kullanabilrim
+
+https://stackoverflow.com/questions/57465865/how-to-convert-from-application-properties-to-application-yml-in-spring-boot
+

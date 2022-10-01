@@ -7,21 +7,17 @@ public class UserRegistrationDto {
 
     private String password;
 
-    private String telNumber;
-
-    private String contactInformation;
 
     public UserRegistrationDto() {
 
     }
 
-    public UserRegistrationDto(String fullName, String email, String password, String telNumber, String contactInformation) {
+    public UserRegistrationDto(String fullName, String email, String password) {
         super();
         this.fullName = fullName;
         this.email = email;
         this.password = password;
-        this.telNumber = telNumber;
-        this.contactInformation = contactInformation;
+
     }
 
     public String getFullName() {
@@ -48,19 +44,4 @@ public class UserRegistrationDto {
         this.password = password;
     }
 
-    public String getTelNumber() {
-        return telNumber;
-    }
-
-    public void setTelNumber(String telNumber) {
-        this.telNumber = telNumber;
-    }
-
-    public String getContactInformation() {
-        return contactInformation;
-    }
-
-    public void setContactInformation(String contactInformation) {
-        this.contactInformation = contactInformation;
-    }
 }

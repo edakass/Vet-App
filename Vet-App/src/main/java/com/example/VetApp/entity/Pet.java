@@ -27,6 +27,14 @@ public class Pet {
     @JoinColumn(name="user_id", nullable=false)
     private User user;
 
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
     public Pet(Long id, String petType, String petBreed, String petName, int petAge, String petDescription, User user) {
         this.id = id;
         this.petType = petType;
@@ -83,5 +91,18 @@ public class Pet {
 
     public void setPetDescription(String petDescription) {
         this.petDescription = petDescription;
+    }
+
+    @Override
+    public String toString() {
+        return "Pet{" +
+                "id=" + id +
+                ", petType='" + petType + '\'' +
+                ", petBreed='" + petBreed + '\'' +
+                ", petName='" + petName + '\'' +
+                ", petAge=" + petAge +
+                ", petDescription='" + petDescription + '\'' +
+                ", user=" + user +
+                '}';
     }
 }

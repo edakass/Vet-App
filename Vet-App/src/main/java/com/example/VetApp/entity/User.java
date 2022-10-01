@@ -18,11 +18,6 @@ public class User {
 
     private String password;
 
-    private String telNumber;
-
-    private String contactInformation;
-    // iletişim bilgileri, telefon,
-
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(
             name = "users_roles",
@@ -41,16 +36,12 @@ public class User {
 
     }
 
-    public User( String fullName, String email, String password, String telNumber, String contactInformation, Collection<Role> roles) {
+    public User( String fullName, String email, String password, Collection<Role> roles) {
         this.fullName = fullName;
         this.email = email;
         this.password = password;
-        this.telNumber = telNumber;
-        this.contactInformation = contactInformation;
         this.roles = roles;
     }
-
-
 
 
     public Long getId() {
@@ -85,23 +76,7 @@ public class User {
         this.password = password;
     }
 
-    public String getTelNumber() {
-        return telNumber;
-    }
-
-    public void setTelNumber(String telNumber) {
-        this.telNumber = telNumber;
-    }
-
-    public String getContactInformation() {
-        return contactInformation;
-    }
-
-    public void setContactInformation(String contactInformation) {
-        this.contactInformation = contactInformation;
-    }
-
-    public Collection<Role> getRoles() {
+ public Collection<Role> getRoles() {
         return roles;
     }
 
@@ -109,4 +84,16 @@ public class User {
         this.roles = roles;
     }
 
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", fullName='" + fullName + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", roles=" + roles +
+                ", pets=" + pets +
+                '}';
+    }
 }

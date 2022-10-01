@@ -1,8 +1,12 @@
 package com.example.VetApp.controller;
 
 import com.example.VetApp.entity.Pet;
+import com.example.VetApp.entity.User;
+import com.example.VetApp.service.AuthenticationService;
 import com.example.VetApp.service.PetService;
+import com.example.VetApp.service.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -60,5 +64,4 @@ public class PetController {
     public String getPetPage() {
         return "admin_pet";
     }
-
 }

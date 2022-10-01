@@ -81,50 +81,9 @@
     </style>
 </head>
 <body>
-<div>
-  <div class="container">
-    <div class="alert alert-success mt-2" role="alert" th:text="${succes}" th:if="${success}"></div>
-    <form action="#" th:action="@{/save}" th:object="${pet}" method="post">
-      <div class="row">
-
-
-
-        <h1 style="margin-top: 25px;" class="text-dark text">Add & Edit Pet </h1>
-        <div class="col-6 col">
-          <h3 class="h">Pet Name:</h3>
-          <input type="hidden" th:field="*{id}"/>
-          <input type="text" th:field="*{pet_name}" class="form-control input" placeholder="Maviş"
-                 style="font-size:20px" required=" "/>
-          <h3 class="h">Pet Age</h3>
-          <input type="text" th:field="*{pet_age}" aria-label="Course" class="form-control input"
-                 placeholder="100" style="font-size:20px" required=" "/>
-          <h3 class="h">Pet Type:</h3>
-          <input type="number" th:field="*{pet_type}" aria-label="Fee" class="form-control input"
-                 placeholder="1" style="font-size:20px" required=" "/>
-
-          <h3 class="h">Pet Breed</h3>
-          <input type="text" th:field="*{pet_breed}" aria-label="Course" class="form-control input"
-                 placeholder="100" style="font-size:20px" required=" "/>
-
-          <h3 class="h">Pet Description</h3>
-          <input type="text" th:field="*{pet_description}" aria-label="Course" class="form-control input"
-                 placeholder="100" style="font-size:20px" required=" "/>
-
-
-          <button type="submit" class="btn-1"><strong>SAVE</strong></button>
-
-
-        </div>
-        <div class="col-6 col">
-          <img src="https://img.icons8.com/color/300/000000/healthy-food-calories-calculator.png"
-               style="margin-left:100px;font-size:1000px;"/>
-
-        </div>
-      </div>
-    </form>
-  </div>
-</div>
-
+<h1>
+  Ekleme
+</h1>
 <!-- Optional JavaScript; choose one of the two! -->
 
 <!-- Option 1: Bootstrap Bundle with Popper -->

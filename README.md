@@ -20,15 +20,18 @@
 - Programımızı çalıştırırken ilk bu ekrandan çalıştırmamız gerekiyor.
 ![image](https://user-images.githubusercontent.com/61595808/193004965-c250e8ef-13a5-4921-a8cb-8c74d8a3ce97.png)
 
-- ![image](https://user-images.githubusercontent.com/61595808/193110313-9f68dcdc-a1ae-45b1-8b40-a57aee3f1f46.png)
+----------------------
 
-- ![image](https://user-images.githubusercontent.com/61595808/193110439-68f3ccff-734b-4193-ad20-783951e5bd4f.png)
+![image](https://user-images.githubusercontent.com/61595808/193424154-19a82fec-c4a5-4bf0-866b-902184cfd323.png)
 
-- ![image](https://user-images.githubusercontent.com/61595808/193110470-4b707d8c-dbe9-4f5f-b9cd-f40581381d03.png)
+![image](https://user-images.githubusercontent.com/61595808/193424165-f2572490-2438-4a4b-ac5e-a97891aa0ece.png)
 
-- ![image](https://user-images.githubusercontent.com/61595808/193244581-3984e710-c118-4a61-8514-083632fe9746.png)
+![image](https://user-images.githubusercontent.com/61595808/193424170-6f428934-1940-4799-b77f-9862e324870b.png)
 
-- ![image](https://user-images.githubusercontent.com/61595808/193244709-45df5aa2-c1dd-48fe-9f1b-40a31fdbb1d7.png)
+![image](https://user-images.githubusercontent.com/61595808/193424185-ed1d9ced-718a-41e9-ac28-1fa5b6fc913c.png)
+
+![image](https://user-images.githubusercontent.com/61595808/193424192-14a5b439-6371-46f0-a5f3-1a407bf4898d.png)
+
 
 
 

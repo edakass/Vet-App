@@ -40,11 +40,11 @@
 
 
 -------------------------------
+
+![image](https://user-images.githubusercontent.com/61595808/193919216-3e3dcd5e-0e47-4b92-b9ee-34eec58c2062.png)
+
+----------------------------
 Owner ve Pet ilişkilerinin yapılması üzerinde
-
-
-
-
 
 ---------------------
 

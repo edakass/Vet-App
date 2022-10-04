@@ -41,6 +41,14 @@
 ![image](https://user-images.githubusercontent.com/61595808/193919216-3e3dcd5e-0e47-4b92-b9ee-34eec58c2062.png)
 
 ----------------------------
+
+![image](https://user-images.githubusercontent.com/61595808/193941440-0cc72332-793b-4fc6-8d36-e6857e09ac8d.png)
+
+
+
+
+
+----------------------
 Owner ve Pet ilişkilerinin yapılması üzerinde
 
 ---------------------

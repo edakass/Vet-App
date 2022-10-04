@@ -36,9 +36,6 @@
 
 ![image](https://user-images.githubusercontent.com/61595808/193473534-4ced5a52-2f04-42ff-a2f9-240dcb5f4afb.png)
 
-![image](https://user-images.githubusercontent.com/61595808/193473546-616d095b-1484-4fe6-ada3-1c712327e89e.png)
-
-
 -------------------------------
 
 ![image](https://user-images.githubusercontent.com/61595808/193919216-3e3dcd5e-0e47-4b92-b9ee-34eec58c2062.png)

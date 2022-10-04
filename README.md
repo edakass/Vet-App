@@ -32,10 +32,18 @@
 
 ![image](https://user-images.githubusercontent.com/61595808/193424192-14a5b439-6371-46f0-a5f3-1a407bf4898d.png)
 
+---------------------------------------------------
 
+![image](https://user-images.githubusercontent.com/61595808/193473534-4ced5a52-2f04-42ff-a2f9-240dcb5f4afb.png)
 
+-------------------------------
 
+![image](https://user-images.githubusercontent.com/61595808/193919216-3e3dcd5e-0e47-4b92-b9ee-34eec58c2062.png)
 
+----------------------------
+Owner ve Pet ilişkilerinin yapılması üzerinde
+
+---------------------
 
 Not : application properties i yml ye çevirmek için kullanabilrim
 

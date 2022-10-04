@@ -27,6 +27,11 @@ public class Pet {
     @JoinColumn(name="user_id", nullable=false)
     private User user;
 
+    @ManyToOne
+    @JoinColumn(name="owner_id", nullable=false)
+    private Owner owner;
+
+
     public User getUser() {
         return user;
     }

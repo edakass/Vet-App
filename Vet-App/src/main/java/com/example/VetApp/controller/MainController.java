@@ -15,4 +15,14 @@ public class MainController {
     public String getPage() {
         return "main_page";
     }
+
+    @RequestMapping("/owner")
+    public String getPae() {
+        return "owner";
+    }
+
+    @RequestMapping("/add_owner")
+    public String getge() {
+        return "add_owner";
+    }
 }

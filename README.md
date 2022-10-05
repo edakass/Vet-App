@@ -81,8 +81,8 @@ Rolü User olanların gördüğü ekran
 
 ----------------
 
-İncelediğiniz için teşekkür ederim. 💜
+***İncelediğiniz için teşekkür ederim.*** 💜
 
-Öneriniz ve sormak istediğiniz bir şey olursa sormaktan lütfen çekinmeyin. 💁
+***Öneriniz ve sormak istediğiniz bir şey olursa sormaktan lütfen çekinmeyin.*** 💁
 
 ***Saygılarımla*** ⭐

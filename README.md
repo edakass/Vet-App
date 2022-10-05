@@ -51,6 +51,11 @@
 
 ![image](https://user-images.githubusercontent.com/61595808/194105930-206ddee1-86b0-40d1-b332-ee3df3513285.png)
 
+Seda'yı aratınca Seda hakkındaki bilgiler geliyor yani filter özelliği çalışıyor
+
+![image](https://user-images.githubusercontent.com/61595808/194106165-778f392b-0e82-4f7d-a3d5-6aee5bf6b177.png)
+
+
 
 ----------------------
 Owner ve Pet ilişkilerinin yapılması üzerinde

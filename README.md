@@ -76,6 +76,6 @@ Rolü User olanların gördüğü ekran
 
 
 
-----------------------
-Owner için edit delete işlemleri gerçekleştiriliyor.
+--------------------
+NOT : Kullanmış olduğum ikonları şu linklerden aldım <a href="https://www.w3schools.com/icons/">W3 School Icon</a>
 

@@ -1,4 +1,4 @@
-# Vet-App
+# Vet-App  🐱 🐶 🐈  🐟 🐦 🐠 🐕 :heart_eyes_cat:  
 
 ##### Kullandığım teknolojiler : Spring Boot,Spring MVC, Java, Maven, IntelliJ, Mysql, HTML, CSS,Bootstrap,XAMPP
 ##### Kütüphaneler : Jpa, Thymeleaf,Spring Security,Web,MySql,DevTools
@@ -29,7 +29,7 @@
 ![image](https://user-images.githubusercontent.com/61595808/193424170-6f428934-1940-4799-b77f-9862e324870b.png)
 
 
-![image](https://user-images.githubusercontent.com/61595808/193424192-14a5b439-6371-46f0-a5f3-1a407bf4898d.png)
+![image](https://user-images.githubusercontent.com/61595808/194172289-0e25826f-3365-42ac-bfd7-53e17726438f.png)
 
 ---------------------------------------------------
 
@@ -61,7 +61,28 @@ Rolü Admin olanların gördüğü ekran :
 
 ![image](https://user-images.githubusercontent.com/61595808/194154218-6d93d0e6-5a3d-4e45-a9fc-962577e97dd7.png)
 
+Settings Page
 
-----------------------
-Owner için edit delete işlemleri gerçekleştiriliyor.
+![image](https://user-images.githubusercontent.com/61595808/194160712-162f3357-a1ab-47d5-b5c7-a1873f143be2.png)
 
+Owner'ın hakkındaki bilgilere tıklaman için Rolü Admin olanın göreceği ekran. Rolü user da olsa sadece delete işlemini göremeyce idi.
+
+![image](https://user-images.githubusercontent.com/61595808/194163394-3b6203a6-07b4-4dd5-8e0e-db406a27a04b.png)
+
+Rolü User olanların gördüğü ekran
+
+![image](https://user-images.githubusercontent.com/61595808/194163606-99d26ee6-d2a6-4770-8127-ff5f50372868.png)
+
+
+
+
+--------------------
+#### NOT : Kullanmış olduğum ikonları şu linklerden aldım <a href="https://www.w3schools.com/icons/">W3 School Icons</a> ve <a href="https://icons8.com/">ICONS8</a>
+
+----------------
+
+***İncelediğiniz için teşekkür ederim.*** 💜
+
+***Öneriniz ve sormak istediğiniz bir şey olursa sormaktan lütfen çekinmeyin.*** 💁
+
+***Saygılarımla*** ⭐

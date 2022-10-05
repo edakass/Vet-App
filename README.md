@@ -65,6 +65,11 @@ Settings Page
 
 ![image](https://user-images.githubusercontent.com/61595808/194160712-162f3357-a1ab-47d5-b5c7-a1873f143be2.png)
 
+Owner'ın hakkındaki bilgilere tıklaman için Rolü Admin olanın göreceği ekran. Rolü user da olsa sadece delete işlemini göremeyce idi.
+
+![image](https://user-images.githubusercontent.com/61595808/194163394-3b6203a6-07b4-4dd5-8e0e-db406a27a04b.png)
+
+
 ----------------------
 Owner için edit delete işlemleri gerçekleştiriliyor.
 

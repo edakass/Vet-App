@@ -138,7 +138,6 @@
             <div class="alert alert-success mt-2" role="alert" th:text="${succes}" th:if="${success}"></div>
             <form action="#" th:action="@{/save}" th:object="${pet}" method="post">
                 <div class="row">
-                    <h1 style="margin-top: 25px;" class="info-text">Add & Edit Pet Information </h1>
                     <div class="col-6 col">
                         <h4 class="h">Pet Type</h4>
                         <input type="hidden" th:field="*{id}"/>
@@ -156,6 +155,10 @@
                         <h4 class="h">Pet Description</h4>
                         <input type="text" th:field="*{petDescription}" aria-label="petDescription" class="form-control input"
                                placeholder="petDescription" style="font-size:20px" required=" "/>
+                        <h4 class="h">Owner</h4>
+                        <input type="text"  aria-label="owner_id" class="form-control input"
+                               placeholder="owner_id" style="font-size:20px" required=" "/>
+
                         <button type="submit" class="btn-1 btn-text">Save</button>
                     </div>
                     <div class="col-6 col">

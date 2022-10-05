@@ -16,13 +16,4 @@ public class MainController {
         return "main_page";
     }
 
-    @RequestMapping("/owner")
-    public String getPae() {
-        return "owner";
-    }
-
-    @RequestMapping("/add_owner")
-    public String getge() {
-        return "add_owner";
-    }
 }

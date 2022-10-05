@@ -1,6 +1,9 @@
 package com.example.VetApp.entity;
 
+import com.sun.istack.NotNull;
+
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -10,24 +13,38 @@ public class Owner {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Long id;
 
+    @Column(nullable = false)
+    @NotNull
     private String fullName;
 
+    @Column(nullable = false)
+    @NotNull
     private String contactInfo;
 
+    @Column(nullable = false)
+    @NotNull
     private String telNumber;
 
-    private int email;
+    @Column(nullable = false)
+    @NotNull
+    private String email;
 
     @OneToMany(mappedBy="owner")
     private Set<Pet> pets;
 
+    public Set<Pet> getPets() {
+        return pets;
+    }
 
+    public void setPets(Set<Pet> pets) {
+        this.pets = pets;
+    }
 
     public  Owner(){
 
     }
 
-    public Owner(String fullName, String contactInfo, String telNumber, int email) {
+    public Owner(String fullName, String contactInfo, String telNumber, String email) {
         this.fullName = fullName;
         this.contactInfo = contactInfo;
         this.telNumber = telNumber;
@@ -66,13 +83,15 @@ public class Owner {
         this.telNumber = telNumber;
     }
 
-    public int getEmail() {
+    public String getEmail() {
         return email;
     }
 
-    public void setEmail(int email) {
+    public void setEmail(String email) {
         this.email = email;
     }
+
+
 
     @Override
     public String toString() {
@@ -85,3 +104,4 @@ public class Owner {
                 '}';
     }
 }
+

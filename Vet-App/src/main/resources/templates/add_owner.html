@@ -41,6 +41,54 @@
   color : #FFF;
   font-family: "Times New Roman", Times, san-serif;
 }
+.btn-text{
+  font-size:25px;
+}
+.text{
+  text-align: center;
+  font-size:45px;
+}
+.input{
+  margin-top: 12px;
+  margin-bottom:8px;
+  height:50px;
+  border-radius:18px;
+}
+.btn-1{
+  background-color:orange;
+  margin-top: 15px;
+  margin-left: 190px;
+  margin-bottom: 15px;
+  box-shadow: 8px;
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+}
+.btn-1:hover{
+  background-color: rgb(238, 231, 231);
+  margin-top: 15px;
+  margin-left: 190px;
+  margin-bottom: 15px;
+  box-shadow: 8px;
+  width: 150px;
+  border-radius: 25px;
+}
+.color{
+  background-color:cadetblue;
+}
+.img{
+  height: 50px;
+  width: 50px;
+}
+.h{
+ font-size:25px;
+}
+.col{
+  margin-top:30px;
+}
+.info-text{
+  font-size:25px;
+}
 </style>
 <body>
 <nav class="navbar navbar-expand-sm" style="background-color: #D8BFD8;">
@@ -84,11 +132,41 @@
         </form>
     </form>
 </nav>
-<br>
-<br>
 <div class="text">
     <div align="center">
+        <div class="container">
+            <div class="alert alert-success mt-2" role="alert" th:text="${succes}" th:if="${success}"></div>
+            <form action="#" th:action="@{/save-Owner}" th:object="${owner}" method="post">
+                <div class="row">
+                    <div class="col-6 col">
+                        <h4 class="h">Full Name</h4>
+                        <input type="hidden" th:field="*{id}"/>
+                        <input type="text" th:field="*{fullName}" class="form-control input" placeholder="fullName"
+                               style="font-size:20px" required=" "/>
 
+                        <h4 class="h">Contact Information</h4>
+                        <input type="text" th:field="*{contactInfo}" aria-label="contactInfo" class="form-control input"
+                               placeholder="contactInfo" style="font-size:20px" required=" "/>
+
+                        <h4 class="h">Telephone Number</h4>
+                        <input type="text" th:field="*{telNumber}" aria-label="telNumber" class="form-control input"
+                               placeholder="telNumber" style="font-size:20px" required=" "/>
+
+                        <h4 class="h">Email</h4>
+                        <input type="text"  th:field="*{email}"  aria-label="email" class="form-control input"
+                               placeholder="email" style="font-size:20px" required=" "/>
+
+
+                        <button type="submit" class="btn-1 btn-text">Save</button>
+                    </div>
+                    <div class="col-6 col">
+                        <img src="https://img.icons8.com/external-phatplus-lineal-color-phatplus/300/000000/external-information-digital-service-phatplus-lineal-color-phatplus.png"/>
+
+                    </div>
+
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 </body>

@@ -31,6 +31,13 @@ public class Pet {
     @JoinColumn(name="owner_id", nullable=false)
     private Owner owner;
 
+    public Owner getOwner() {
+        return owner;
+    }
+
+    public void setOwner(Owner owner) {
+        this.owner = owner;
+    }
 
     public User getUser() {
         return user;

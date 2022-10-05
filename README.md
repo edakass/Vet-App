@@ -79,8 +79,10 @@ Rolü User olanların gördüğü ekran
 --------------------
 #### NOT : Kullanmış olduğum ikonları şu linklerden aldım <a href="https://www.w3schools.com/icons/">W3 School Icons</a> ve <a href="https://icons8.com/">ICONS8</a>
 
+----------------
+
 İncelediğiniz için teşekkür ederim. 💜
 
-Öneriniz ve sormak istediğiniz bir şey olursa sormaktan lütfen çekinmeyin.
+Öneriniz ve sormak istediğiniz bir şey olursa sormaktan lütfen çekinmeyin. 💁
 
-Saygılarımla 
+*** Saygılarımla*** ⭐

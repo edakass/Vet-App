@@ -69,6 +69,12 @@ Owner'ın hakkındaki bilgilere tıklaman için Rolü Admin olanın göreceği e
 
 ![image](https://user-images.githubusercontent.com/61595808/194163394-3b6203a6-07b4-4dd5-8e0e-db406a27a04b.png)
 
+Rolü User olanların gördüğü ekran
+
+![image](https://user-images.githubusercontent.com/61595808/194163606-99d26ee6-d2a6-4770-8127-ff5f50372868.png)
+
+
+
 
 ----------------------
 Owner için edit delete işlemleri gerçekleştiriliyor.

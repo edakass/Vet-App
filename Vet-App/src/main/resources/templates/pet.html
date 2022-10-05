@@ -29,29 +29,29 @@
   font-size:16px;
 }
 .navbar{
-   margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 .mid{
-   text-align: center;
+  text-align: center;
 }
 .dropButon{
-   margin-right:20px;
+  margin-right:20px;
 }
 .write{
-   font-size:16px;
+  font-size:16px;
 }
 .div{
   display:flex;
   justify-content:center;
   margin-left:350px;
- }
+}
 .ortala{
  margin-left:auto;
  margin-right:auto;
 }
 .tex{
-  color : #FFF;
-  font-family: "Times New Roman", Times, san-serif;
+ color : #FFF;
+ font-family: "Times New Roman", Times, san-serif;
 }
 </style>
 <body>
@@ -68,7 +68,6 @@
             <li class="nav-item">
                 <a class="nav-link write"  th:href="@{/owner}" style="margin-right:5px"><strong> Owner </strong></a>
             </li>
-
         </ul>
     </div>
     <form class="d-flex ms-auto">
@@ -110,9 +109,7 @@
     </form>
 </div>
 <div sec:authorize="hasAnyAuthority('ROLE_ADMIN')">
-
     <center><p><a th:href="@{'/add_pet'}">Add New Please</a></p></center>
-
 </div>
 <div>
     <div class="container">

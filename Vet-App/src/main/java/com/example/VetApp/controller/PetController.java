@@ -45,11 +45,9 @@ public class PetController {
     @RequestMapping("/p_edit/{id}")
     public ModelAndView showEditPetPage(@PathVariable(name = "id") int id) {
         ModelAndView mav = new ModelAndView("add_pet");
-        // List<Pet> pet_list = service.getAllPed();
         Pet pet=service.get((int) id);
         mav.addObject("pet", pet);
         return mav;
-
     }
 
     @RequestMapping("/p_delete/{id}")
@@ -58,7 +56,6 @@ public class PetController {
         attributes.addFlashAttribute("success","The pet has deleted !");
         return "pet";
     }
-
 
     @RequestMapping("/admin_pet")
     public String getPetPage() {

@@ -28,7 +28,6 @@ public class PetService {
         repository.save(pet);
     }
 
-
     public void delete(int id) {
         repository.deleteById(id);
     }

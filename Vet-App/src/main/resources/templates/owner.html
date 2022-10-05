@@ -38,8 +38,8 @@
  margin-right:auto;
 }
 .tex{
-  color : #FFF;
-  font-family: "Times New Roman", Times, san-serif;
+ color : #FFF;
+ font-family: "Times New Roman", Times, san-serif;
 }
 </style>
 <body>
@@ -88,11 +88,11 @@
     <div align="center">
         <div class="mid">
             <form th:action="@{/owner}">
-                &nbsp;
+                &nbsp
                 <img src="https://img.icons8.com/external-flat-geotatah/50/000000/external-pet-pet-lover-society-flat-flat-geotatah-30.png"/>
-                &nbsp;
+                &nbsp
                 <input type="text"  placeholder="Search please" name="keyword" id="keyword" size="50" th:value="${keyword}" required />
-                &nbsp;
+                &nbsp
                 <input type="submit" class="btn btn-info" value="Search" />
                 &nbsp;
             </form>
@@ -118,7 +118,6 @@
                         </tr>
                         </thead>
                         <tbody>
-
                         <tr  th:each="owner : ${owner_list}">
                             <td th:text="${owner.fullName}"></td>
                             <td th:text="${owner.contactInfo}"></td>
@@ -126,7 +125,6 @@
                             <td th:text="${owner.email}"></td>
                             <td>
                                 <div sec:authorize="hasAnyAuthority('ROLE_ADMIN','ROLE_USER')">
-
                                     <a th:href="@{'/o_edit/' + ${owner.id}} " title="Edit" data-toggle="tooltip" ><i class="material-icons"  style="margin-left:40%;margin-right: 40%;width: 72px;">&#xE254;</i></a>
                                 </div>
                             </td>

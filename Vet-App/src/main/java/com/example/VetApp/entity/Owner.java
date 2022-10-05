@@ -91,8 +91,6 @@ public class Owner {
         this.email = email;
     }
 
-
-
     @Override
     public String toString() {
         return "Owner{" +

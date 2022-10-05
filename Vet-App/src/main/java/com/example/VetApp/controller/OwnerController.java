@@ -47,35 +47,12 @@ public class OwnerController {
         return mav;
     }
 
-    /*
-food da
-  @RequestMapping("/f_edit/{id}")
-    public ModelAndView showEditFoodPage(@PathVariable(name = "id") int id) {
-        ModelAndView mav = new ModelAndView("add_food");
-       // List<Food> food_list = service.getAllFood();
-        Food food=service.get((int) id);
-        mav.addObject("food", food);
-        return mav;
-
-    }
-
-    weight te
-
-     @RequestMapping("/edit/{id}")
-    public ModelAndView showEditWeightPage(@PathVariable(name = "id") float id){
-        ModelAndView mav=new ModelAndView("data");
-        Weight weight=service.get((long) id);
-        mav.addObject("weight",weight);
-        return mav;
-    }
-    */
     @RequestMapping("/o_delete/{id}")
     public String delete_owner(@PathVariable(name = "id") int id, RedirectAttributes attributes) {
         service.delete(id);
         attributes.addFlashAttribute("success","The owner has deleted !");
         return "owner";
     }
-
 
     @RequestMapping("/admin_owner")
     public String getOwPage() {

@@ -56,9 +56,6 @@
 </nav>
 <br>
 <br>
-
-
-
 <div class="form">
     <form  th:action="@{/login}" method="post" >
         <div th:if="${param.error}">
@@ -67,7 +64,6 @@
         <div th:if="${param.logout}">
             <div class="alert alert-info">You have been logged out.</div>
         </div>
-
         <br>
         <br>
         <h2>Login</h2>
@@ -83,13 +79,10 @@
         <div class="input-box">
             <input type="submit" name="login-submit" id="login-submit" value="Log In" />
         </div>
-
         <input type="checkbox" id="remember" name="remember-me">Remember Me</input>
-
         <div>
             <a  href="/"  th:href="@{/registration}"  style="text-decoration: underline ">Create an account</a></span>
         </div>
-
     </form>
 </div>
 </body>

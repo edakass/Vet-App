@@ -61,6 +61,9 @@ Rolü Admin olanların gördüğü ekran :
 
 ![image](https://user-images.githubusercontent.com/61595808/194154218-6d93d0e6-5a3d-4e45-a9fc-962577e97dd7.png)
 
+Settings Page
+
+![image](https://user-images.githubusercontent.com/61595808/194160712-162f3357-a1ab-47d5-b5c7-a1873f143be2.png)
 
 ----------------------
 Owner için edit delete işlemleri gerçekleştiriliyor.

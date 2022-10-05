@@ -85,4 +85,4 @@ Rolü User olanların gördüğü ekran
 
 Öneriniz ve sormak istediğiniz bir şey olursa sormaktan lütfen çekinmeyin. 💁
 
-*** Saygılarımla*** ⭐
+***Saygılarımla*** ⭐

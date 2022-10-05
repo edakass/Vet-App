@@ -121,7 +121,7 @@
                                 <i class='far fa-user-circle' style='font-size:36px'></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
-                                <a class="dropdown-item" th:href="@{/index}"><span class="glyphicon glyphicon-home"></span> Home</a>
+                                <a class="dropdown-item" th:href="@{/}"><span class="glyphicon glyphicon-home"></span> Home</a>
                                 <a class="dropdown-item" th:href="@{/settings}"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
                                 <a class="dropdown-item"  sec:authorize="isAuthenticated()" th:href="@{/logout}"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
                             </div>
@@ -156,7 +156,7 @@
                         <input type="text" th:field="*{petDescription}" aria-label="petDescription" class="form-control input"
                                placeholder="petDescription" style="font-size:20px" required=" "/>
                         <h4 class="h">Owner</h4>
-                        <input type="text"  aria-label="owner_id" class="form-control input"
+                        <input type="text"  th:field="*{owner.id}" aria-label="owner.id" class="form-control input"
                                placeholder="owner_id" style="font-size:20px" required=" "/>
                         <button type="submit" class="btn-1 btn-text">Save</button>
                     </div>

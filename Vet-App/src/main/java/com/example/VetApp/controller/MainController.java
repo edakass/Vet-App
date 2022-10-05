@@ -16,4 +16,14 @@ public class MainController {
         return "main_page";
     }
 
+    @RequestMapping("/settings")
+    public String getSettingsPage() {
+        return "settings";
+    }
+
+    @RequestMapping("/detail")
+    public String getDetailPage() {
+        return "detail";
+    }
+
 }

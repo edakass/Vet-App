@@ -121,7 +121,7 @@
                                 <i class='far fa-user-circle' style='font-size:36px'  ></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
-                                <a class="dropdown-item" th:href="@{/index}"><span class="glyphicon glyphicon-home"></span> Home</a>
+                                <a class="dropdown-item" th:href="@{/}"><span class="glyphicon glyphicon-home"></span> Home</a>
                                 <a class="dropdown-item" th:href="@{/settings}"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
                                 <a class="dropdown-item"  sec:authorize="isAuthenticated()" th:href="@{/logout}"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
                             </div>

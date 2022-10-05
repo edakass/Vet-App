@@ -33,6 +33,7 @@ public class OwnerController {
         model.addAttribute("owner", new Owner());
         return "add_owner";
     }
+
     @RequestMapping(value = "/save-Owner", method = RequestMethod.POST)
     public String saveOwner(@ModelAttribute("owner") Owner owner) {
         service.save(owner);

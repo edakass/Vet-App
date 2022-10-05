@@ -3,6 +3,7 @@ package com.example.VetApp.controller;
 import com.example.VetApp.entity.Pet;
 import com.example.VetApp.entity.User;
 import com.example.VetApp.service.AuthenticationService;
+import com.example.VetApp.service.OwnerService;
 import com.example.VetApp.service.PetService;
 import com.example.VetApp.service.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,17 @@ public class PetController {
 
     @Autowired
     private PetService service;
+
+    @Autowired
+    private OwnerService ownerService;
+
+    @Autowired
+    public PetController(PetService service, OwnerService ownerService) {
+        this.service = service;
+        this.ownerService = ownerService;
+    }
+
+
     @RequestMapping("/pet")
     public String home(Pet pet, Model model, String keyword) {
         if(keyword!=null) {
@@ -36,6 +48,7 @@ public class PetController {
         model.addAttribute("pet", new Pet());
         return "add_pet";
     }
+
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     public String savePet(@ModelAttribute("pet") Pet pet) {

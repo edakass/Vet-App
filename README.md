@@ -34,13 +34,23 @@
 
 ---------------------------------------------------
 
-![image](https://user-images.githubusercontent.com/61595808/193473534-4ced5a52-2f04-42ff-a2f9-240dcb5f4afb.png)
+![image](https://user-images.githubusercontent.com/61595808/194071024-2870c22a-71e9-41c6-b8cb-3f19d0c4016e.png)
 
 -------------------------------
 
 ![image](https://user-images.githubusercontent.com/61595808/193919216-3e3dcd5e-0e47-4b92-b9ee-34eec58c2062.png)
 
 ----------------------------
+
+![image](https://user-images.githubusercontent.com/61595808/193941440-0cc72332-793b-4fc6-8d36-e6857e09ac8d.png)
+
+
+![image](https://user-images.githubusercontent.com/61595808/193944020-9af791f4-befa-41c2-9212-02e4ba05367d.png)
+
+
+
+
+----------------------
 Owner ve Pet ilişkilerinin yapılması üzerinde
 
 ---------------------

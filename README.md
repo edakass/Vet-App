@@ -46,6 +46,7 @@
 
 ![image](https://user-images.githubusercontent.com/61595808/193944020-9af791f4-befa-41c2-9212-02e4ba05367d.png)
 
+Rolü User olanların gördüğü ekran :
 
 ![image](https://user-images.githubusercontent.com/61595808/194105722-8cbe1173-f128-4525-bfd9-73aa754c7c1c.png)
 
@@ -56,13 +57,11 @@ Seda'yı aratınca Seda hakkındaki bilgiler geliyor yani filter özelliği çal
 ![image](https://user-images.githubusercontent.com/61595808/194106165-778f392b-0e82-4f7d-a3d5-6aee5bf6b177.png)
 
 
+Rolü Admin olanların gördüğü ekran : 
+
+![image](https://user-images.githubusercontent.com/61595808/194154218-6d93d0e6-5a3d-4e45-a9fc-962577e97dd7.png)
+
 
 ----------------------
-Owner ve Pet ilişkilerinin yapılması üzerinde
 
----------------------
-
-Not : application properties i yml ye çevirmek için kullanabilrim
-
-https://stackoverflow.com/questions/57465865/how-to-convert-from-application-properties-to-application-yml-in-spring-boot
 

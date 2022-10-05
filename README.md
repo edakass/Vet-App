@@ -63,5 +63,5 @@ Rolü Admin olanların gördüğü ekran :
 
 
 ----------------------
-
+Owner için edit delete işlemleri gerçekleştiriliyor.
 

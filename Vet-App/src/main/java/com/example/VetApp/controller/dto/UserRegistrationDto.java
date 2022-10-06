@@ -1,12 +1,12 @@
 package com.example.VetApp.controller.dto;
 
 public class UserRegistrationDto {
+
     private String fullName;
 
     private String email;
 
     private String password;
-
 
     public UserRegistrationDto() {
 

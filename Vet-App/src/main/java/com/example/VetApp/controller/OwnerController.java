@@ -13,6 +13,7 @@ import java.util.List;
 
 @Controller
 public class OwnerController {
+
     @Autowired
     private OwnerService service;
 
@@ -22,10 +23,9 @@ public class OwnerController {
             List<Owner> owner_list = service.getByKeyword(keyword);
             model.addAttribute("owner_list",owner_list);
         }else {
-            List<Owner>  owner_list = service.getAllOwner();
+            List<Owner> owner_list = service.getAllOwner();
             model.addAttribute("owner_list",owner_list);}
         return "owner";
-
     }
 
     @GetMapping("/add_owner")
@@ -41,7 +41,7 @@ public class OwnerController {
     }
 
     @RequestMapping(value = "/o_edit/{id}", method = RequestMethod.GET)
-    public ModelAndView showEditWeightPage(@PathVariable(name = "id") long id){
+    public ModelAndView showEditOwnerPage(@PathVariable(name = "id") long id){
         ModelAndView mav=new ModelAndView("add_owner");
         Owner owner=service.get((int) id);
         mav.addObject("owner", owner);

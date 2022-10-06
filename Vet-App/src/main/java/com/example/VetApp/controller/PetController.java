@@ -1,5 +1,6 @@
 package com.example.VetApp.controller;
 
+import com.example.VetApp.entity.Owner;
 import com.example.VetApp.entity.Pet;
 import com.example.VetApp.entity.User;
 import com.example.VetApp.service.AuthenticationService;
@@ -49,17 +50,23 @@ public class PetController {
         return "add_pet";
     }
 
-
-    @RequestMapping(value = "/save", method = RequestMethod.POST)
+    @RequestMapping(value = "/save-pet", method = RequestMethod.POST)
     public String savePet(@ModelAttribute("pet") Pet pet) {
         service.save(pet);
         return "redirect:/pet";
     }
-    @RequestMapping("/p_edit/{id}")
+    /*@RequestMapping("/p_edit/{id}")
     public ModelAndView showEditPetPage(@PathVariable(name = "id") int id) {
         ModelAndView mav = new ModelAndView("add_pet");
         Pet pet=service.get((int) id);
         mav.addObject("pet", pet);
+        return mav;
+    }*/
+    @RequestMapping(value = "/p_edit/{id}", method = RequestMethod.GET)
+    public ModelAndView showEditPetPage(@PathVariable(name = "id") long id){
+        ModelAndView mav=new ModelAndView("add_pet");
+        Pet pet=service.get((int) id);
+        mav.addObject("pet",pet);
         return mav;
     }
 
@@ -68,10 +75,5 @@ public class PetController {
         service.delete(id);
         attributes.addFlashAttribute("success","The pet has deleted !");
         return "pet";
-    }
-
-    @RequestMapping("/admin_pet")
-    public String getPetPage() {
-        return "admin_pet";
     }
 }

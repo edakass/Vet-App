@@ -27,7 +27,6 @@ public class OwnerService {
         return repository.findByKeyword(keyword);
     }
 
-
     public  void save(Owner owner){
         repository.save(owner);
     }

@@ -16,7 +16,7 @@ public class PetService {
         return pet_list;
     }
 
-    public Pet get(int id){
+    public Pet get(long id){
         return  repository.findById(id).get();
     }
 
@@ -28,7 +28,7 @@ public class PetService {
         repository.save(pet);
     }
 
-    public void delete(int id) {
+    public void delete(long id) {
         repository.deleteById(id);
     }
 

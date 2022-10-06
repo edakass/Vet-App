@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en"  xmlns="http://www.w3.org/1999/xhtml"
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org"
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:form="">
 <head>
     <meta charset="UTF-8">
     <title>Add / Edit Pet</title>
@@ -136,7 +136,7 @@
     <div align="center">
         <div class="container">
             <div class="alert alert-success mt-2" role="alert" th:text="${succes}" th:if="${success}"></div>
-            <form action="#" th:action="@{/save}" th:object="${pet}" method="post">
+            <form action="#" th:action="@{/save-pet}" th:object="${pet}" method="post">
                 <div class="row">
                     <div class="col-6 col">
                         <h4 class="h">Pet Type</h4>
@@ -155,9 +155,10 @@
                         <h4 class="h">Pet Description</h4>
                         <input type="text" th:field="*{petDescription}" aria-label="petDescription" class="form-control input"
                                placeholder="petDescription" style="font-size:20px" required=" "/>
-                        <h4 class="h">Owner</h4>
-                        <input type="text"  th:field="*{owner.id}" aria-label="owner.id" class="form-control input"
-                               placeholder="owner_id" style="font-size:20px" required=" "/>
+                  <!--    <h4 class="h">Owner</h4>
+                        <input type="number"  th:field="*{owner.id}" aria-label="owner.id" class="form-control input"
+                               placeholder="owner_id" style="font-size:20px" required=" "/>  -->
+
                         <button type="submit" class="btn-1 btn-text">Save</button>
                     </div>
                     <div class="col-6 col">

@@ -138,7 +138,7 @@
                             <td th:text="${pet.petType}"></td>
                             <td th:text="${pet.petBreed}"></td>
                             <td th:text="${pet.petDescription}"></td>
-                            <td th:text="${pet.owner.fullName}"></td>
+                        <!--    <td th:text="${pet.owner.fullName}"></td> -->
                             <td>
                                 <div sec:authorize="hasAnyAuthority('ROLE_ADMIN','ROLE_USER')">
 

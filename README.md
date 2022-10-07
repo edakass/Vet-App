@@ -73,6 +73,7 @@ Rolü User olanların gördüğü ekran
 
 ![image](https://user-images.githubusercontent.com/61595808/194163606-99d26ee6-d2a6-4770-8127-ff5f50372868.png)
 
+![image](https://user-images.githubusercontent.com/61595808/194533959-c379b0e0-246b-48b3-a657-2f31c2c195de.png)
 
 
 

@@ -92,7 +92,7 @@
 
 
 --------------------
-#### NOT : Kullanmış olduğum ikonları şu linklerden aldım  <a href="[https://www.w3schools.com/icons/](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)"> Emojiler <a href="https://www.w3schools.com/icons/">W3 School Icons</a> ve <a href="https://icons8.com/">ICONS8</a>
+#### NOT : Kullanmış olduğum ikonları şu linklerden aldım  <a href="https://www.w3schools.com/icons/">W3 School Icons</a> ve <a href="https://icons8.com/">ICONS8</a>
 
 ----------------
 

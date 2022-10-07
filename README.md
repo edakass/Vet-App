@@ -22,58 +22,12 @@
 
 ----------------------
 
-![image](https://user-images.githubusercontent.com/61595808/193424154-19a82fec-c4a5-4bf0-866b-902184cfd323.png)
+🦸‍♀️  👩‍💻
 
-![image](https://user-images.githubusercontent.com/61595808/193424165-f2572490-2438-4a4b-ac5e-a97891aa0ece.png)
+***http://localhost:8188/main_page***
 
-![image](https://user-images.githubusercontent.com/61595808/193424170-6f428934-1940-4799-b77f-9862e324870b.png)
+![image](https://user-images.githubusercontent.com/61595808/194673378-945f2ea8-a4ab-48fb-ae27-19eb60f9b3f5.png)
 
-
-![image](https://user-images.githubusercontent.com/61595808/194172289-0e25826f-3365-42ac-bfd7-53e17726438f.png)
-
----------------------------------------------------
-
-![image](https://user-images.githubusercontent.com/61595808/194071024-2870c22a-71e9-41c6-b8cb-3f19d0c4016e.png)
-
--------------------------------
-
-![image](https://user-images.githubusercontent.com/61595808/193919216-3e3dcd5e-0e47-4b92-b9ee-34eec58c2062.png)
-
-----------------------------
-
-![image](https://user-images.githubusercontent.com/61595808/193941440-0cc72332-793b-4fc6-8d36-e6857e09ac8d.png)
-
-
-![image](https://user-images.githubusercontent.com/61595808/193944020-9af791f4-befa-41c2-9212-02e4ba05367d.png)
-
-Rolü User olanların gördüğü ekran :
-
-![image](https://user-images.githubusercontent.com/61595808/194105722-8cbe1173-f128-4525-bfd9-73aa754c7c1c.png)
-
-![image](https://user-images.githubusercontent.com/61595808/194105930-206ddee1-86b0-40d1-b332-ee3df3513285.png)
-
-Seda'yı aratınca Seda hakkındaki bilgiler geliyor yani filter özelliği çalışıyor
-
-![image](https://user-images.githubusercontent.com/61595808/194106165-778f392b-0e82-4f7d-a3d5-6aee5bf6b177.png)
-
-
-Rolü Admin olanların gördüğü ekran : 
-
-![image](https://user-images.githubusercontent.com/61595808/194154218-6d93d0e6-5a3d-4e45-a9fc-962577e97dd7.png)
-
-Settings Page
-
-![image](https://user-images.githubusercontent.com/61595808/194160712-162f3357-a1ab-47d5-b5c7-a1873f143be2.png)
-
-Owner'ın hakkındaki bilgilere tıklaman için Rolü Admin olanın göreceği ekran. Rolü user da olsa sadece delete işlemini göremeyce idi.
-
-![image](https://user-images.githubusercontent.com/61595808/194163394-3b6203a6-07b4-4dd5-8e0e-db406a27a04b.png)
-
-Rolü User olanların gördüğü ekran
-
-![image](https://user-images.githubusercontent.com/61595808/194163606-99d26ee6-d2a6-4770-8127-ff5f50372868.png)
-
-![image](https://user-images.githubusercontent.com/61595808/194533959-c379b0e0-246b-48b3-a657-2f31c2c195de.png)
 
 
 

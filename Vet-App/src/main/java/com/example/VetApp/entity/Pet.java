@@ -1,5 +1,7 @@
 package com.example.VetApp.entity;
 
+import com.sun.istack.NotNull;
+
 import javax.persistence.*;
 
 @Entity
@@ -7,17 +9,28 @@ import javax.persistence.*;
 public class Pet {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(nullable = false)
+    @NotNull
     private  Long id;
 
-    @Column(name="petType")
+    @Column(name="petType",nullable = false)
+    @NotNull
     private String petType;
 
+    @Column(nullable = false)
+    @NotNull
     private String petBreed; //cinsi
 
+    @Column(nullable = false)
+    @NotNull
     private String petName;
 
+    @Column(nullable = false)
+    @NotNull
     private int petAge;
 
+    @Column(nullable = false)
+    @NotNull
     private  String petDescription;
 
     public  Pet(){
@@ -27,6 +40,9 @@ public class Pet {
     @JoinColumn(name="user_id", nullable=false)
     private User user;
 
+    //@ManyToOne(fetch = FetchType.LAZY, optional = true)
+    //
+    //@ManyToOne(fetch = FetchType.LAZY, optional = false)
     @ManyToOne
     @JoinColumn(name="owner_id", nullable=false)
     private Owner owner;

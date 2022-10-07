@@ -6,6 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Add / Edit Pet</title>
+    <link rel="stylesheet" href="css/customSelect.css">
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -155,11 +156,20 @@
                         <h4 class="h">Pet Description</h4>
                         <input type="text" th:field="*{petDescription}" aria-label="petDescription" class="form-control input"
                                placeholder="petDescription" style="font-size:20px" required=" "/>
-                  <!--    <h4 class="h">Owner</h4>
-                        <input type="number"  th:field="*{owner.id}" aria-label="owner.id" class="form-control input"
-                               placeholder="owner_id" style="font-size:20px" required=" "/>  -->
 
-                        <button type="submit" class="btn-1 btn-text">Save</button>
+                        <label form:class="form-label">Owner</label>
+                        <select name="fullName" id="fullName" class="form-control">
+                            <option th:each="owner : ${owner_list}"
+                                    th:value="${owner.id}"
+                                    th:text="${owner.fullName}">
+                            </option>
+                        </select>
+
+
+
+
+                            <button type="submit" class="btn-1 btn-text">Save</button>
+
                     </div>
                     <div class="col-6 col">
                         <img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/300/000000/external-veterinarian-international-cat-day-smashingstocks-circular-smashing-stocks.png"

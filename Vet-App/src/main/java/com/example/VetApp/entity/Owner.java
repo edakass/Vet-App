@@ -1,9 +1,7 @@
 package com.example.VetApp.entity;
 
-import com.sun.istack.NotNull;
-
 import javax.persistence.*;
-import java.util.HashSet;
+
 import java.util.Set;
 
 @Entity
@@ -13,22 +11,19 @@ public class Owner {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Long id;
 
-    @Column(nullable = false)
-    @NotNull
     private String fullName;
 
-    @Column(nullable = false)
-    @NotNull
     private String contactInfo;
 
-    @Column(nullable = false)
-    @NotNull
     private String telNumber;
 
-    @Column(nullable = false)
-    @NotNull
     private String email;
 
+    //
+    //
+    //@OneToMany(mappedBy = "owner", cascade = CascadeType.ALL)
+    //
+    // @OneToMany(mappedBy = "owner", fetch = FetchType.LAZY,cascade = CascadeType.ALL)
     @OneToMany(mappedBy="owner")
     private Set<Pet> pets;
 

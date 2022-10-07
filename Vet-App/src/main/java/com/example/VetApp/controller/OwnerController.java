@@ -2,6 +2,7 @@ package com.example.VetApp.controller;
 
 import com.example.VetApp.entity.Owner;
 import com.example.VetApp.service.OwnerService;
+import com.example.VetApp.service.PetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,6 +17,17 @@ public class OwnerController {
 
     @Autowired
     private OwnerService service;
+
+    @Autowired
+    private PetService petService;
+
+    @Autowired
+    public  OwnerController(OwnerService service,PetService petService){
+        this.service=service;
+        this.petService=petService;
+
+    }
+
 
     @RequestMapping("/owner")
     public String ownerHomePage(Owner owner, Model model, String keyword){

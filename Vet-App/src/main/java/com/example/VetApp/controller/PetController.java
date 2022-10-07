@@ -47,21 +47,18 @@ public class PetController {
     @GetMapping("/add_pet")
     public String add_pet(Model model) {
         model.addAttribute("pet", new Pet());
+        model.addAttribute("owner",new Owner());
+        List<Owner> owner_list = ownerService.getAllOwner();
+        model.addAttribute("owner_list",owner_list);
         return "add_pet";
     }
+
 
     @RequestMapping(value = "/save-pet", method = RequestMethod.POST)
     public String savePet(@ModelAttribute("pet") Pet pet) {
         service.save(pet);
         return "redirect:/pet";
     }
-    /*@RequestMapping("/p_edit/{id}")
-    public ModelAndView showEditPetPage(@PathVariable(name = "id") int id) {
-        ModelAndView mav = new ModelAndView("add_pet");
-        Pet pet=service.get((int) id);
-        mav.addObject("pet", pet);
-        return mav;
-    }*/
     @RequestMapping(value = "/p_edit/{id}", method = RequestMethod.GET)
     public ModelAndView showEditPetPage(@PathVariable(name = "id") long id){
         ModelAndView mav=new ModelAndView("add_pet");

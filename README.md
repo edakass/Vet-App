@@ -22,17 +22,77 @@
 
 ----------------------
 
+
+----------------------
+
+
 🦸‍♀️  👩‍💻
 
 ***http://localhost:8188/main_page***
 
 ![image](https://user-images.githubusercontent.com/61595808/194673378-945f2ea8-a4ab-48fb-ae27-19eb60f9b3f5.png)
 
+***http://localhost:8188/registration***
+
+![image](https://user-images.githubusercontent.com/61595808/194673482-4508f67f-de06-4454-8382-4398d321c18c.png)
+
+***http://localhost:8188/login***
+
+![image](https://user-images.githubusercontent.com/61595808/194673498-c128f35e-2ec0-44e9-9ec5-340faea1c74f.png)
+
+
+***http://localhost:8188/***
+
+![image](https://user-images.githubusercontent.com/61595808/194673703-6355d6b4-df89-45cb-8e83-4b4028fd0fba.png)
+
+
+***http://localhost:8188/add_pet***
+
+![image](https://user-images.githubusercontent.com/61595808/194673724-608a2b2f-4a36-4539-9ab3-87837c043930.png)
+
+***http://localhost:8188/add_owner***
+
+![image](https://user-images.githubusercontent.com/61595808/194673745-1b5fad10-addf-4005-ada7-45f6d865b7d5.png)
+
+
+#### İki türlü kullanıcım var Rolü ***user*** ve ***admin*** olanlar.
+
+#### User delete işlemi yapamıyor.Ama rolü Amin olanın bir çok yetkisi bulunmaktadır.
+
+#### Bu iki ekran ***ROLE_USER*** olanların görebileceği ekranlar
+
+#### Ve her iki kullanıcı içinde filtreleme özelliği çalışmaktadır.
+
+***http://localhost:8188/pet***
+
+![image](https://user-images.githubusercontent.com/61595808/194673799-f200451a-308e-4146-96f6-ae493bf54081.png)
+ 
+ #### mesela ben burada Lemon'u aradığımda karşıma çıkan ekran şu şekildedir.
+ 
+ ![image](https://user-images.githubusercontent.com/61595808/194673879-d1cef314-5852-4bd2-bad5-618c8e70e411.png)
+
+***http://localhost:8188/owner***
+
+![image](https://user-images.githubusercontent.com/61595808/194673916-b570f27b-8cef-47b4-b8b9-bf17f771ce84.png)
+
+#### Şimdi ki ekran da ise göreceğiniz üzere delete işlemi yapılmaktadır. Bu da Rolü Admin olanların göreceği ve işlemleri gerçekleştirdikleri ekrandır.
+
+***http://localhost:8188/pet***
+
+![image](https://user-images.githubusercontent.com/61595808/194674094-1ef4ef32-c91a-4af1-91f2-82ba9743259b.png)
+
+***http://localhost:8188/owner***
+
+![image](https://user-images.githubusercontent.com/61595808/194674102-b014824f-9c61-4c90-9026-407b944f4d11.png)
+
+***http://localhost:8188/settings***
+
+![image](https://user-images.githubusercontent.com/61595808/194674122-ab545450-8079-4271-80b5-82cb8ea16449.png)
 
 
 
 --------------------
-#### NOT : Kullanmış olduğum ikonları şu linklerden aldım <a href="https://www.w3schools.com/icons/">W3 School Icons</a> ve <a href="https://icons8.com/">ICONS8</a>
+#### NOT : Kullanmış olduğum ikonları şu linklerden aldım  <a href="[https://www.w3schools.com/icons/](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)"> Emojiler <a href="https://www.w3schools.com/icons/">W3 School Icons</a> ve <a href="https://icons8.com/">ICONS8</a>
 
 ----------------
 

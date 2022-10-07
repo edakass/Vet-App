@@ -1,5 +1,4 @@
 package com.example.VetApp.entity;
-
 import javax.persistence.*;
 import java.util.Collection;
 import java.util.List;
@@ -28,8 +27,8 @@ public class User {
 
     private Collection<Role> roles;
 
-    @OneToMany(mappedBy="user")
-    private Set<Pet> pets;
+  /*  @OneToMany(mappedBy="user")
+    private Set<Pet> pets;*/
 
 
     public  User (){ //boş constructor oluşturuldu çünkü daha sonraki classlarla iletişim sağlamak için
@@ -91,7 +90,6 @@ public class User {
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", roles=" + roles +
-                ", pets=" + pets +
-                '}';
+               '}';
     }
 }

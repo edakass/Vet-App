@@ -57,7 +57,7 @@
 .btn-1{
   background-color:#30D5C8;
   margin-top: 15px;
-  margin-left: 190px;
+  margin-left: 10px;
   margin-bottom: 15px;
   box-shadow: 8px;
   width: 150px;
@@ -67,7 +67,7 @@
 .btn-1:hover{
   background-color: rgb(238, 231, 231);
   margin-top: 15px;
-  margin-left: 190px;
+  margin-left: 10px;
   margin-bottom: 15px;
   box-shadow: 8px;
   width: 150px;
@@ -81,7 +81,8 @@
   width: 50px;
 }
 .h{
- font-size:25px;
+  font-size:18px;
+  text-align: left;
 }
 .col{
   margin-top:30px;
@@ -141,17 +142,17 @@
                     <div class="col-6 col">
                         <h4 class="h">Full Name</h4>
                         <input type="hidden" th:field="*{id}"/>
-                        <input type="text" th:field="*{fullName}" class="form-control input" placeholder="fullName"
+                        <input type="text" th:field="*{fullName}" class="form-control input" placeholder="Eda Kaş"
                                style="font-size:20px" required=" "/>
-                        <h4 class="h">Contact Information</h4>
+                        <h4 class="h">Address</h4>
                         <input type="text" th:field="*{contactInfo}" aria-label="contactInfo" class="form-control input"
-                               placeholder="contactInfo" style="font-size:20px" required=" "/>
+                               placeholder="Tokat" style="font-size:20px" required=" "/>
                         <h4 class="h">Telephone Number</h4>
                         <input type="text" th:field="*{telNumber}" aria-label="telNumber" class="form-control input"
-                               placeholder="telNumber" style="font-size:20px" required=" "/>
+                               placeholder="90237464" style="font-size:20px" required=" "/>
                         <h4 class="h">Email</h4>
                         <input type="text"  th:field="*{email}"  aria-label="email" class="form-control input"
-                               placeholder="email" style="font-size:20px" required=" "/>
+                               placeholder="eda@gmail.com" style="font-size:20px" required=" "/>
                         <button type="submit" class="btn-1 btn-text">Save</button>
                     </div>
                     <div class="col-6 col">

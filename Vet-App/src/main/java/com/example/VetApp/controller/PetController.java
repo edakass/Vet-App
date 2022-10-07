@@ -11,6 +11,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
@@ -53,17 +56,20 @@ public class PetController {
         return "add_pet";
     }
 
-
     @RequestMapping(value = "/save-pet", method = RequestMethod.POST)
-    public String savePet(@ModelAttribute("pet") Pet pet) {
+    public String addPet(@ModelAttribute("pet") Pet pet) {
         service.save(pet);
         return "redirect:/pet";
     }
+
+
     @RequestMapping(value = "/p_edit/{id}", method = RequestMethod.GET)
-    public ModelAndView showEditPetPage(@PathVariable(name = "id") long id){
+    public ModelAndView showEditPetPage(@PathVariable(name = "id") long id,Model model){
         ModelAndView mav=new ModelAndView("add_pet");
         Pet pet=service.get((int) id);
         mav.addObject("pet",pet);
+        List<Owner> owner_list = ownerService.getAllOwner();
+        model.addAttribute("owner_list",owner_list);
         return mav;
     }
 
@@ -71,6 +77,6 @@ public class PetController {
     public String delete_pet(@PathVariable(name = "id") int id, RedirectAttributes attributes) {
         service.delete(id);
         attributes.addFlashAttribute("success","The pet has deleted !");
-        return "pet";
+        return "redirect:/pet";
     }
 }

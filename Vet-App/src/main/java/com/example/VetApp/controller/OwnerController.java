@@ -25,9 +25,7 @@ public class OwnerController {
     public  OwnerController(OwnerService service,PetService petService){
         this.service=service;
         this.petService=petService;
-
     }
-
 
     @RequestMapping("/owner")
     public String ownerHomePage(Owner owner, Model model, String keyword){

@@ -5,7 +5,6 @@ body {
    background-size: cover;
    background-repeat: no-repeat;
 }
-
 body::before {
   content: "";
   position: absolute;
@@ -15,7 +14,6 @@ body::before {
   height: 100%;
   opacity: 0.8;
 }
-
 .form {
   position: absolute;
   top: 50%;
@@ -28,18 +26,15 @@ body::before {
   padding: 50px;
   box-sizing: border-box;
 }
-
 .form h2 {
   color: #777;
   margin: 0 0 40px;
   padding: 0;
 }
-
 .form .input-box {
   position: relative;
   margin: 20px 0;
 }
-
 .form .input-box input {
   width: 100%;
   font-size: 16px;
@@ -52,12 +47,10 @@ body::before {
   font-weight: bold;
   color: #777;
 }
-
 .form .input-box input:focus,
 .form .input-box input:valid {
   border-bottom-color: #422831;
 }
-
 .form .input-box .fa {
   position: absolute;
   top: 8px;
@@ -65,7 +58,6 @@ body::before {
   font-size: 18px;
   color: #777;
 }
-
 .form .input-box input[type="submit"] {
   border: none;
   cursor: pointer;
@@ -74,11 +66,9 @@ body::before {
   font-weight: bold;
   transition: 0.5s;
 }
-
 .form .input-box input[type="submit"]:hover {
   background-color: #7F2443;
 }
-
 .form a {
   text-decoration: none;
   color: #777;
@@ -87,7 +77,6 @@ body::before {
   display: inline-block;
   transition: 0.5s;
 }
-
 .form a:hover {
   color: #ff4987;
 }

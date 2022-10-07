@@ -10,13 +10,6 @@ import java.util.List;
 
 @Repository
 public interface PetRepository extends JpaRepository<Pet,Long> {
-    /*
-     @Query(value = "SELECT * FROM USERS WHERE LASTNAME = ?1",
-    countQuery = "SELECT count(*) FROM USERS WHERE LASTNAME = ?1",
-    nativeQuery = true)
-
-    @Query("select u from User u where u.lastname like %:#{[0]}% and u.lastname like %:lastname%")
-     */
-    @Query(value = "select * from pet p where (p.pet_name, p.pet_age ) like %:keyword%", nativeQuery = true)
+    @Query(value = "select * from pet p where p.pet_name like %:keyword%", nativeQuery = true)
     List<Pet> findByKeyword(@Param("keyword") String keyword);
 }

@@ -52,13 +52,13 @@
 .input{
   margin-top: 12px;
   margin-bottom:8px;
-  height:50px;
+  height:40px;
   border-radius:18px;
 }
 .btn-1{
   background-color:orange;
   margin-top: 15px;
-  margin-left: 190px;
+  margin-left: 10px;
   margin-bottom: 15px;
   box-shadow: 8px;
   width: 150px;
@@ -68,7 +68,7 @@
 .btn-1:hover{
   background-color: rgb(238, 231, 231);
   margin-top: 15px;
-  margin-left: 190px;
+  margin-left: 10px;
   margin-bottom: 15px;
   box-shadow: 8px;
   width: 150px;
@@ -82,7 +82,8 @@
   width: 50px;
 }
 .h{
- font-size:25px;
+  font-size:18px;
+  text-align: left;
 }
 .col{
   margin-top:30px;
@@ -140,36 +141,30 @@
             <form action="#" th:action="@{/save-pet}" th:object="${pet}" method="post">
                 <div class="row">
                     <div class="col-6 col">
-                        <h4 class="h">Pet Type</h4>
-                        <input type="hidden" th:field="*{id}"/>
-                        <input type="text" th:field="*{petType}" class="form-control input" placeholder="petType"
-                               style="font-size:20px" required=" "/>
-                        <h4 class="h">Pet Breed</h4>
-                        <input type="text" th:field="*{petBreed}" aria-label="breed" class="form-control input"
-                               placeholder="petBreed" style="font-size:20px" required=" "/>
                         <h4 class="h">Pet Name</h4>
                         <input type="text" th:field="*{petName}" aria-label="name" class="form-control input"
-                               placeholder="petName" style="font-size:20px" required=" "/>
+                               placeholder="Lemon" style="font-size:20px" required=" "/>
+                        <h4 class="h">Pet Type</h4>
+                        <input type="hidden" th:field="*{id}"/>
+                        <input type="text" th:field="*{petType}" class="form-control input" placeholder="Bird"
+                               style="font-size:20px" required=" "/>
                         <h4 class="h">Pet Age</h4>
-                        <input type="number" th:field="*{petName}" aria-label="age" class="form-control input"
-                               placeholder="petage" style="font-size:20px" required=" "/>
-                        <h4 class="h">Pet Description</h4>
-                        <input type="text" th:field="*{petDescription}" aria-label="petDescription" class="form-control input"
-                               placeholder="petDescription" style="font-size:20px" required=" "/>
-
-                        <label form:class="form-label">Owner</label>
-                        <select name="fullName" id="fullName" class="form-control">
+                        <input type="number" th:field="*{petAge}" aria-label="age" class="form-control input"
+                               placeholder="1" style="font-size:20px" required=" "/>
+                        <h4 class="h">Owner</h4>
+                        <select name="fullName" th:field="*{owner.id}" id="fullName" class="form-control input">
                             <option th:each="owner : ${owner_list}"
                                     th:value="${owner.id}"
                                     th:text="${owner.fullName}">
                             </option>
                         </select>
-
-
-
-
+                        <h4 class="h">Pet Breed</h4>
+                        <input type="text" th:field="*{petBreed}" aria-label="breed" class="form-control input"
+                               placeholder="Budgies" style="font-size:20px" required=" "/>
+                        <h4 class="h">Pet Description</h4>
+                        <input type="text" th:field="*{petDescription}" aria-label="petDescription" class="form-control input"
+                               placeholder="They're not the smallest parrots―that distinction belongs to the parrotlet―but budgies are quite tiny." style="font-size:20px" required=" "/>
                             <button type="submit" class="btn-1 btn-text">Save</button>
-
                     </div>
                     <div class="col-6 col">
                         <img src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/300/000000/external-veterinarian-international-cat-day-smashingstocks-circular-smashing-stocks.png"

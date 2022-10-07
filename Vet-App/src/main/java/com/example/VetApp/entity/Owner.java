@@ -2,6 +2,7 @@ package com.example.VetApp.entity;
 
 import javax.persistence.*;
 
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -19,12 +20,7 @@ public class Owner {
 
     private String email;
 
-    //
-    //
-    //@OneToMany(mappedBy = "owner", cascade = CascadeType.ALL)
-    //
-    // @OneToMany(mappedBy = "owner", fetch = FetchType.LAZY,cascade = CascadeType.ALL)
-    @OneToMany(mappedBy="owner")
+   @OneToMany(mappedBy="owner")
     private Set<Pet> pets;
 
     public Set<Pet> getPets() {

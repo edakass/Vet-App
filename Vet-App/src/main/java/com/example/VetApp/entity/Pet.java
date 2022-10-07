@@ -1,50 +1,39 @@
 package com.example.VetApp.entity;
 
 import com.sun.istack.NotNull;
+import com.sun.istack.Nullable;
 
 import javax.persistence.*;
+//import org.hibernate.annotations.Entity;
 
 @Entity
 @Table(name="pet")
 public class Pet {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(nullable = false)
-    @NotNull
     private  Long id;
 
-    @Column(name="petType",nullable = false)
-    @NotNull
+    @Nullable
     private String petType;
 
-    @Column(nullable = false)
-    @NotNull
-    private String petBreed; //cinsi
+    @Nullable
+    private String petBreed;
 
-    @Column(nullable = false)
-    @NotNull
+    @Nullable
     private String petName;
 
-    @Column(nullable = false)
-    @NotNull
+    @Nullable
     private int petAge;
 
-    @Column(nullable = false)
-    @NotNull
+    @Nullable
     private  String petDescription;
 
     public  Pet(){
 
     }
-    @ManyToOne
-    @JoinColumn(name="user_id", nullable=false)
-    private User user;
 
-    //@ManyToOne(fetch = FetchType.LAZY, optional = true)
-    //
-    //@ManyToOne(fetch = FetchType.LAZY, optional = false)
     @ManyToOne
-    @JoinColumn(name="owner_id", nullable=false)
+    @JoinColumn(name = "owner_id", nullable=false)
     private Owner owner;
 
     public Owner getOwner() {
@@ -55,22 +44,13 @@ public class Pet {
         this.owner = owner;
     }
 
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-    public Pet(Long id, String petType, String petBreed, String petName, int petAge, String petDescription, User user) {
+    public Pet(Long id, String petType, String petBreed, String petName, int petAge, String petDescription) {
         this.id = id;
         this.petType = petType;
         this.petBreed = petBreed;
         this.petName = petName;
         this.petAge = petAge;
         this.petDescription = petDescription;
-        this.user = user;
     }
 
     public Long getId() {
@@ -130,7 +110,6 @@ public class Pet {
                 ", petName='" + petName + '\'' +
                 ", petAge=" + petAge +
                 ", petDescription='" + petDescription + '\'' +
-                ", user=" + user +
                 '}';
     }
 }

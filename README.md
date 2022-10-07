@@ -17,7 +17,7 @@
 #### - application.properties 'te eklemem gerekenleri ekliyorum,burada web de hangi url de kullanacağımı,veritabanım için yolunu gibi bilgiler eklediğim kısım 
 ![image](https://user-images.githubusercontent.com/61595808/193003476-7c184009-0d3f-4dee-8bc5-75397ca29ab2.png)
 
-####- Programımızı çalıştırırken ilk bu ekrandan çalıştırmamız gerekiyor.
+#### - Programımızı çalıştırırken ilk bu ekrandan çalıştırmamız gerekiyor.
 ![image](https://user-images.githubusercontent.com/61595808/193004965-c250e8ef-13a5-4921-a8cb-8c74d8a3ce97.png)
 
 ----------------------
@@ -26,7 +26,7 @@
 ----------------------
 
 
-# 🦸‍♀️  👩‍💻
+# 🦸‍♀️  👩‍💻 💁 👩‍💼 🚶‍♀️ 💃 ⛹️‍♀️
 
 ***http://localhost:8188/main_page***
 

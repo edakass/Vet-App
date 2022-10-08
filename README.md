@@ -22,6 +22,8 @@
 
 ----------------------
 
+![image](https://user-images.githubusercontent.com/61595808/194703387-f7b6886d-d4eb-405c-b9ff-9bd168dad8eb.png)
+
 
 ----------------------
 
@@ -89,7 +91,9 @@
 
 ![image](https://user-images.githubusercontent.com/61595808/194674122-ab545450-8079-4271-80b5-82cb8ea16449.png)
 
+***http://localhost:8188/login?logout***
 
+![image](https://user-images.githubusercontent.com/61595808/194675040-4936a102-ac26-44f1-a313-3e60dd53bb82.png)
 
 --------------------
 #### NOT : Kullanmış olduğum ikonları şu linklerden aldım  <a href="https://www.w3schools.com/icons/">W3 School Icons</a> ve <a href="https://icons8.com/">ICONS8</a>

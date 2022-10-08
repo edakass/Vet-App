@@ -6,11 +6,13 @@ import com.example.VetApp.service.PetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 public class OwnerController {
@@ -22,19 +24,20 @@ public class OwnerController {
     private PetService petService;
 
     @Autowired
-    public  OwnerController(OwnerService service,PetService petService){
-        this.service=service;
-        this.petService=petService;
+    public OwnerController(OwnerService service, PetService petService) {
+        this.service = service;
+        this.petService = petService;
     }
 
     @RequestMapping("/owner")
-    public String ownerHomePage(Owner owner, Model model, String keyword){
-        if(keyword!=null) {
+    public String ownerHomePage(Owner owner, Model model, String keyword) {
+        if (keyword != null) {
             List<Owner> owner_list = service.getByKeyword(keyword);
-            model.addAttribute("owner_list",owner_list);
-        }else {
+            model.addAttribute("owner_list", owner_list);
+        } else {
             List<Owner> owner_list = service.getAllOwner();
-            model.addAttribute("owner_list",owner_list);}
+            model.addAttribute("owner_list", owner_list);
+        }
         return "owner";
     }
 
@@ -51,9 +54,9 @@ public class OwnerController {
     }
 
     @RequestMapping(value = "/o_edit/{id}", method = RequestMethod.GET)
-    public ModelAndView showEditOwnerPage(@PathVariable(name = "id") long id){
-        ModelAndView mav=new ModelAndView("add_owner");
-        Owner owner=service.get((int) id);
+    public ModelAndView showEditOwnerPage(@PathVariable(name = "id") long id) {
+        ModelAndView mav = new ModelAndView("add_owner");
+        Owner owner = service.get((int) id);
         mav.addObject("owner", owner);
         return mav;
     }
@@ -61,13 +64,15 @@ public class OwnerController {
     @RequestMapping("/o_delete/{id}")
     public String delete_owner(@PathVariable(name = "id") int id, RedirectAttributes attributes) {
         service.delete(id);
-        attributes.addFlashAttribute("success","The owner has deleted !");
+        attributes.addFlashAttribute("success", "The owner has deleted !");
         return "owner";
     }
 
-    @RequestMapping("/admin_owner")
-    public String getOwPage() {
-        return "admin_owner";
-    }
+   @RequestMapping(value = "/detail/{id}",method = RequestMethod.GET)
+   public String detail(@PathVariable Long id, Model model){
+        Owner owner = service.get(id);
+        model.addAttribute("owner",owner);
+        return "detail";
+   }
 
 }

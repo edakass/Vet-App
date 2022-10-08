@@ -124,8 +124,9 @@
                             <td th:text="${owner.telNumber}"></td>
                             <td th:text="${owner.email}"></td>
                             <td>
+
                                 <div sec:authorize="hasAnyAuthority('ROLE_ADMIN','ROLE_USER')">
-                                    <a th:href="@{/detail}" title="Edit" data-toggle="tooltip" >
+                                    <a th:href="@{'/detail/'+${owner.id}}" title="View" data-toggle="tooltip" >
                                         <i class="far fa-address-card"  style="margin-left:40%;margin-right: 40%;width: 72px;">&#xE254;</i></a>
                                 </div>
                             </td>

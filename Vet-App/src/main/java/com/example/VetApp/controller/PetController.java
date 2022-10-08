@@ -79,4 +79,6 @@ public class PetController {
         attributes.addFlashAttribute("success","The pet has deleted !");
         return "redirect:/pet";
     }
+
+
 }

@@ -90,6 +90,38 @@
     <div align="center">
        <h1>buradaa kullanıcının kaç tane hayvana ve adres vs bilgileri içerecek</h1>
     </div>
+ <th> More details </th>
+        </tr>
+        <tbody>
+        <tr>
+            <td th:text="${owner.fullName}"></td>
+            <td th:text="${owner.telNumber}"></td>
+            <td th:text="${owner.email"></td>
+            <td th:text="$owner.contactInfo}"></td>
+        </tr>
+   <!--     <td th:text="${pet.petName}"></td>
+        <td th:text="${pet.petType}"></td>
+        <td th:text="${pet.petAge}"></td>
+     <td th:text="${pet.owner.fullName}"></td>
+        <td th:text="${pet.petBreed}"></td>
+        <td th:text="${pet.petDescription}"></td>
+        </tbody> -->
+</div>
+
+
+    <div align="center">
+
+
+    <!--    <h2>pet Information</h2>
+        <span>pet name:</span><span th:text="${pet.petName}"></span><br/>
+        <a href="/detail/${pet.id}" class="btn btn-secondary btn-sm ml-2 float-right">İncele</a>
+        <span>Tel Number </span><span th:text="${pet.petType}"></span><br/>
+        <span>Email:</span><span th:text="${pet.petAge}"></span><br/>
+        <span>Gender:</span><span th:text="${pet.petBreed}"></span><br/>
+        <span>Email:</span><span th:text="${pet.petDescription}"></span><br/> -->
+
+    </div>
+
 </div>
 </body>
 </html>

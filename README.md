@@ -95,6 +95,11 @@
 
 ![image](https://user-images.githubusercontent.com/61595808/194675040-4936a102-ac26-44f1-a313-3e60dd53bb82.png)
 
+***http://localhost:8188/detail/4***
+
+![image](https://user-images.githubusercontent.com/61595808/194714015-b3649fd0-e9e2-4bae-8886-9ab7528312cf.png)
+
+
 --------------------
 #### NOT : Kullanmış olduğum ikonları şu linklerden aldım  <a href="https://www.w3schools.com/icons/">W3 School Icons</a> ve <a href="https://icons8.com/">ICONS8</a>
 

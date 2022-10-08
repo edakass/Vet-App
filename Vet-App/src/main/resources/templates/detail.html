@@ -84,44 +84,68 @@
         </form>
     </form>
 </nav>
-<br>
-<br>
 <div class="text">
-    <div align="center">
-       <h1>buradaa kullanıcının kaç tane hayvana ve adres vs bilgileri içerecek</h1>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="ortala">
+                    <h3><img src="https://img.icons8.com/nolan/64/new-contact.png"/>Person Info</h3>
+                    <div>
+                        <td><img src="https://img.icons8.com/external-gradak-royyan-wijaya/18/000000/external-person-gradak-user-gradak-royyan-wijaya-7.png"/><strong>      Full Name : </strong></td><td th:text="${owner.fullName}"></td>
+                    </div>
+                    <div>
+                        <td><img src="https://img.icons8.com/external-sbts2018-solid-sbts2018/20/000000/external-tel-basic-ui-elements-2.2-sbts2018-solid-sbts2018.png"/><strong>Tel Number : </strong></td> <td th:text="${owner.telNumber}"></td>
+                    </div>
+                    <div>
+                        <td><img src="https://img.icons8.com/external-bearicons-detailed-outline-bearicons/20/000000/external-Email-email-bearicons-detailed-outline-bearicons.png"/><strong>Email : </strong></td><td th:text="${owner.email}"></td>
+                    </div>
+                    <div>
+                        <td><img src="https://img.icons8.com/ios/20/000000/order-delivered.png"/><strong>Contact Info : </strong></td><td th:text="${owner.contactInfo}"></td>
+                    </div>
+                    <br>
+                    <img src="https://img.icons8.com/external-hand-drawn-edt.graphics/75/000000/external-Dog-dogs-hand-drawn-edt.graphics-7.png"/>
+                    <img src="https://img.icons8.com/dusk/64/000000/pets.png"/>
+                    <img src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-dog-dog-and-cat-justicon-flat-justicon-1.png"/>
+                    <img src="https://img.icons8.com/dusk/64/000000/fish-food.png"/>
+                    <img src="https://img.icons8.com/dusk/64/000000/cat--v1.png"/>
+                    <img src="https://img.icons8.com/nolan/64/cat.png"/>
+                    <img src="https://img.icons8.com/cute-clipart/64/000000/cat-caregivers.png"/>
+                    <img src="https://img.icons8.com/color/64/000000/budgie.png"/>
+                    <img src="https://img.icons8.com/plasticine/69/000000/parrot.png"/>
+                    <img src="https://img.icons8.com/emoji/64/000000/bird-emoji.png"/>
+                    <img src="https://img.icons8.com/color/64/000000/fish.png"/>
+                    <img src="https://img.icons8.com/office/64/000000/fish.png"/>
+                    <img src="https://img.icons8.com/office/64/000000/dog.png"/>
+                    <img src="https://img.icons8.com/emoji/48/000000/guide-dog--v1.png"/>
+                    <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-hummingbird-animal-flaticons-lineal-color-flat-icons-2.png"/>
+                    <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-dog-dog-training-flaticons-flat-flat-icons.png"/>
+                    <h3><center><strong>Pet Info</strong></center></h3>
+                    <div class="table-wrapper">
+                        <table class="table table-hover">
+                            <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Age</th>
+                                <th>Breed</th>
+                                <th>Desc</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                               <tr  th:each="pet : ${pet_list}">
+                                  <td th:text="${pet.petName}"></td>
+                                  <td th:text="${pet.petType}"></td>
+                                  <td th:text="${pet.petAge}"></td>
+                                  <td th:text="${pet.petBreed}"></td>
+                                  <td th:text="${pet.petDescription}"></td>
+                               </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
- <th> More details </th>
-        </tr>
-        <tbody>
-        <tr>
-            <td th:text="${owner.fullName}"></td>
-            <td th:text="${owner.telNumber}"></td>
-            <td th:text="${owner.email"></td>
-            <td th:text="$owner.contactInfo}"></td>
-        </tr>
-   <!--     <td th:text="${pet.petName}"></td>
-        <td th:text="${pet.petType}"></td>
-        <td th:text="${pet.petAge}"></td>
-     <td th:text="${pet.owner.fullName}"></td>
-        <td th:text="${pet.petBreed}"></td>
-        <td th:text="${pet.petDescription}"></td>
-        </tbody> -->
-</div>
-
-
-    <div align="center">
-
-
-    <!--    <h2>pet Information</h2>
-        <span>pet name:</span><span th:text="${pet.petName}"></span><br/>
-        <a href="/detail/${pet.id}" class="btn btn-secondary btn-sm ml-2 float-right">İncele</a>
-        <span>Tel Number </span><span th:text="${pet.petType}"></span><br/>
-        <span>Email:</span><span th:text="${pet.petAge}"></span><br/>
-        <span>Gender:</span><span th:text="${pet.petBreed}"></span><br/>
-        <span>Email:</span><span th:text="${pet.petDescription}"></span><br/> -->
-
-    </div>
-
 </div>
 </body>
 </html>

@@ -62,7 +62,6 @@ public class PetController {
         return "redirect:/pet";
     }
 
-
     @RequestMapping(value = "/p_edit/{id}", method = RequestMethod.GET)
     public ModelAndView showEditPetPage(@PathVariable(name = "id") long id,Model model){
         ModelAndView mav=new ModelAndView("add_pet");
@@ -79,6 +78,4 @@ public class PetController {
         attributes.addFlashAttribute("success","The pet has deleted !");
         return "redirect:/pet";
     }
-
-
 }

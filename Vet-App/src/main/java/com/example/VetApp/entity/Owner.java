@@ -20,7 +20,7 @@ public class Owner {
 
     private String email;
 
-   @OneToMany(mappedBy="owner",fetch = FetchType.LAZY)
+   @OneToMany(mappedBy="owner")
     private Set<Pet> pets;
 
     public Set<Pet> getPets() {

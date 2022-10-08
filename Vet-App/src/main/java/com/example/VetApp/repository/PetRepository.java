@@ -12,4 +12,10 @@ import java.util.List;
 public interface PetRepository extends JpaRepository<Pet,Long> {
     @Query(value = "select * from pet p where p.pet_name like %:keyword%", nativeQuery = true)
     List<Pet> findByKeyword(@Param("keyword") String keyword);
+
+    @Query(value ="select * from pet p where p.owner_id = :id", nativeQuery = true)
+    List<Pet> getByOwnerId(@Param("id") Long id);
+
+
+
 }

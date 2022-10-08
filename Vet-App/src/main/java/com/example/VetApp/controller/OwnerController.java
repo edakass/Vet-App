@@ -1,18 +1,17 @@
 package com.example.VetApp.controller;
 
 import com.example.VetApp.entity.Owner;
+import com.example.VetApp.entity.Pet;
 import com.example.VetApp.service.OwnerService;
 import com.example.VetApp.service.PetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.List;
-import java.util.Optional;
 
 @Controller
 public class OwnerController {
@@ -72,7 +71,8 @@ public class OwnerController {
    public String detail(@PathVariable Long id, Model model){
         Owner owner = service.get(id);
         model.addAttribute("owner",owner);
+        List<Pet> pet_list =petService.getByOwnerId(id);
+        model.addAttribute("pet_list",pet_list);
         return "detail";
    }
-
 }

@@ -12,4 +12,5 @@ import java.util.List;
 public interface OwnerRepository extends JpaRepository<Owner,Long> {
     @Query(value = "select * from owner o where o.full_name like %:keyword%", nativeQuery = true)
     List<Owner> findByKeyword(@Param("keyword") String keyword);
+
 }

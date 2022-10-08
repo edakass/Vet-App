@@ -32,4 +32,9 @@ public class PetService {
         repository.deleteById(id);
     }
 
+    //owner id si
+    public List<Pet> getByOwnerId(long id) {
+        return repository.getByOwnerId(id);
+    }
+
 }

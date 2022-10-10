@@ -28,6 +28,7 @@ public class OwnerController {
         this.petService = petService;
     }
 
+    //Get(1) Post() Request()
     @RequestMapping("/owner")
     public String ownerHomePage(Owner owner, Model model, String keyword) {
         if (keyword != null) {
@@ -64,7 +65,7 @@ public class OwnerController {
     public String delete_owner(@PathVariable(name = "id") int id, RedirectAttributes attributes) {
         service.delete(id);
         attributes.addFlashAttribute("success", "The owner has deleted !");
-        return "owner";
+        return "redirect:/owner";
     }
 
    @RequestMapping(value = "/detail/{id}",method = RequestMethod.GET)

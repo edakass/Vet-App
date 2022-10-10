@@ -57,7 +57,7 @@ public class PetController {
     }
 
     @RequestMapping(value = "/save-pet", method = RequestMethod.POST)
-    public String addPet(@ModelAttribute("pet") Pet pet) {
+    public String savePet(@ModelAttribute("pet") Pet pet) {
         service.save(pet);
         return "redirect:/pet";
     }

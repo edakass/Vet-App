@@ -35,10 +35,15 @@
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
 ####  Eğer ki daha sonra başka bir kütüphaneye ihtiyacımız olursa ise Maven sitesine giriyoruz ve ihtiyacımız olan kütüphaneyi aratıyoruz. https://mvnrepository.com/
-<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
+------------------------------------------------
 
+<img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+
+#### If we need another library later, we go to the Maven site and search for the library we need. https://mvnrepository.com/
 ------------------------------------------
+
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
 #### - Projemi yaparken Spring Initialzr'dan gerekli işlemleri yapıyorum. Spring Initialzr, istediğimiz gerekliliklere göre bize temel konfigürasyonları hazır bir Spring projesi üretip veren bir araçtır.  https://start.spring.io/
 #### - ![image](https://user-images.githubusercontent.com/61595808/193000652-8f500b31-0004-4035-90cb-ae0e33f1e7f3.png)

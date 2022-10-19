@@ -2,28 +2,43 @@
 
 <a href="https://www.youtube.com/watch?v=dC4f7DhNiPk">Youtube</a>
 
+-------------------------------------------
+
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
 #####  Kullandığım teknolojiler : Spring Boot,Spring MVC, Java, Maven, IntelliJ, Mysql, HTML, CSS,Bootstrap,XAMPP
 ##### Kütüphaneler : Jpa, Thymeleaf,Spring Security,Web,MySql,DevTools
+
+------------------------------------------
 
 <img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
 
 ##### Technologies I use: Spring Boot, Spring MVC, Java, Maven, IntelliJ, Mysql, HTML, CSS, Bootstrap, XAMPP
 ##### Libraries: Jpa, Thymeleaf,Spring Security,Web,MySql,DevTools
 
+
+------------------------------------------
+
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
 ####  Hem ***admin*** hem de ***user*** için farklı ekranlar içermektedir.
+
+------------------------------------------
 
 <img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
 
 #### Contains different screens for ***admin***  and ***User***.
 
+
+------------------------------------------
+
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
 ####  Eğer ki daha sonra başka bir kütüphaneye ihtiyacımız olursa ise Maven sitesine giriyoruz ve ihtiyacımız olan kütüphaneyi aratıyoruz. https://mvnrepository.com/
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
+
+
+------------------------------------------
 
 #### - Projemi yaparken Spring Initialzr'dan gerekli işlemleri yapıyorum. Spring Initialzr, istediğimiz gerekliliklere göre bize temel konfigürasyonları hazır bir Spring projesi üretip veren bir araçtır.  https://start.spring.io/
 #### - ![image](https://user-images.githubusercontent.com/61595808/193000652-8f500b31-0004-4035-90cb-ae0e33f1e7f3.png)

@@ -14,7 +14,7 @@
 
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
-#### - Hem ***admin*** hem de ***user*** için farklı ekranlar içermektedir.
+#### <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/>  Hem ***admin*** hem de ***user*** için farklı ekranlar içermektedir.
 
 <img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
 

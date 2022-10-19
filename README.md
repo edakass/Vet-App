@@ -88,8 +88,19 @@
 -----------------------------------------
 
 ![image](https://user-images.githubusercontent.com/61595808/193003476-7c184009-0d3f-4dee-8bc5-75397ca29ab2.png)
+
+-----------------------------------
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
-#### - Programımızı çalıştırırken ilk bu ekrandan çalıştırmamız gerekiyor.
+
+#### Programımızı çalıştırırken ilk bu ekrandan çalıştırmamız gerekiyor.
+
+--------------------------------------------
+
+<img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+
+#### While running our program, we need to run it from this screen first.
+
+--------------------------------------
 ![image](https://user-images.githubusercontent.com/61595808/193004965-c250e8ef-13a5-4921-a8cb-8c74d8a3ce97.png)
 
 ----------------------

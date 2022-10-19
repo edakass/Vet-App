@@ -137,6 +137,7 @@
 
 
 <img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+
 ***Thank you for viewing.*** 💜
 
 ***If you have any suggestions or anything you want to ask, please feel free to ask.*** 💁

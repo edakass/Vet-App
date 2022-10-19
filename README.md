@@ -46,10 +46,27 @@
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
 #### - Projemi yaparken Spring Initialzr'dan gerekli işlemleri yapıyorum. Spring Initialzr, istediğimiz gerekliliklere göre bize temel konfigürasyonları hazır bir Spring projesi üretip veren bir araçtır.  https://start.spring.io/
+
+--------------------------------------------
+
+<img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+
+#### - While doing my project, I do the necessary operations from Spring Initialzr. Spring Initialzr is a tool that produces and gives us a ready-made Spring project with basic configurations according to the requirements we want. https://start.spring.io/
+--------------------------------
+
 #### - ![image](https://user-images.githubusercontent.com/61595808/193000652-8f500b31-0004-4035-90cb-ae0e33f1e7f3.png)
+
+----------------------------------------------------------
 
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 #### - İndirmiş olduğum zip dosyasını IntelliJ de açıyorum.Veri tabanı şlemlerimi gerçekleştirmek için, XAMPP programını kullanmam lazım. Çünkü ben projemde phpMyAdmin kullanıyorum.
+----------------------------------------------------------
+
+<img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+
+#### - I download the zip file, then open the file in IntelliJ. To perform database operations, I need to use the XAMPP program. Because I am using phpMyAdmin in my project.
+
+---------------------------------------------------------------
 
 ![image](https://user-images.githubusercontent.com/61595808/193001399-d0ebebb1-985c-422a-b88f-d72e65bffb9c.png)
 

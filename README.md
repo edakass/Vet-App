@@ -45,13 +45,13 @@
 
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
-#### - Projemi yaparken Spring Initialzr'dan gerekli işlemleri yapıyorum. Spring Initialzr, istediğimiz gerekliliklere göre bize temel konfigürasyonları hazır bir Spring projesi üretip veren bir araçtır.  https://start.spring.io/
+#### Projemi yaparken Spring Initialzr'dan gerekli işlemleri yapıyorum. Spring Initialzr, istediğimiz gerekliliklere göre bize temel konfigürasyonları hazır bir Spring projesi üretip veren bir araçtır.  https://start.spring.io/
 
 --------------------------------------------
 
 <img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
 
-#### - While doing my project, I do the necessary operations from Spring Initialzr. Spring Initialzr is a tool that produces and gives us a ready-made Spring project with basic configurations according to the requirements we want. https://start.spring.io/
+#### While doing my project, I do the necessary operations from Spring Initialzr. Spring Initialzr is a tool that produces and gives us a ready-made Spring project with basic configurations according to the requirements we want. https://start.spring.io/
 --------------------------------
 
 #### - ![image](https://user-images.githubusercontent.com/61595808/193000652-8f500b31-0004-4035-90cb-ae0e33f1e7f3.png)
@@ -70,9 +70,22 @@
 
 ![image](https://user-images.githubusercontent.com/61595808/193001399-d0ebebb1-985c-422a-b88f-d72e65bffb9c.png)
 
+---------------------------------------------------------------------------------
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
+
 #### - Şimdi ise veritabanını oluşturuyorum.  ismi : vet-app
 #### - application.properties 'te eklemem gerekenleri ekliyorum,burada web de hangi url de kullanacağımı,veritabanım için yolunu gibi bilgiler eklediğim kısım 
+
+-------------------------------------------------------------------
+
+<img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+
+#### - Now I am creating the database. name : vet-app
+#### - I add what I need to add in application.properties, here is the part where I add information such as which url to use on the web, the path for my database.
+
+
+-----------------------------------------
+
 ![image](https://user-images.githubusercontent.com/61595808/193003476-7c184009-0d3f-4dee-8bc5-75397ca29ab2.png)
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 #### - Programımızı çalıştırırken ilk bu ekrandan çalıştırmamız gerekiyor.

@@ -117,37 +117,65 @@
 
 ![image](https://user-images.githubusercontent.com/61595808/194673378-945f2ea8-a4ab-48fb-ae27-19eb60f9b3f5.png)
 
+---------------------------------------
+
 ***http://localhost:8188/registration***
 
 ![image](https://user-images.githubusercontent.com/61595808/194673482-4508f67f-de06-4454-8382-4398d321c18c.png)
+
+-----------------------------------------
 
 ***http://localhost:8188/login***
 
 ![image](https://user-images.githubusercontent.com/61595808/194673498-c128f35e-2ec0-44e9-9ec5-340faea1c74f.png)
 
+---------------------------------------------
 
 ***http://localhost:8188/***
 
 ![image](https://user-images.githubusercontent.com/61595808/194673703-6355d6b4-df89-45cb-8e83-4b4028fd0fba.png)
 
+-------------------------------------------
 
 ***http://localhost:8188/add_pet***
 
 ![image](https://user-images.githubusercontent.com/61595808/194673724-608a2b2f-4a36-4539-9ab3-87837c043930.png)
 
+----------------------------------------------
+
 ***http://localhost:8188/add_owner***
 
 ![image](https://user-images.githubusercontent.com/61595808/194673745-1b5fad10-addf-4005-ada7-45f6d865b7d5.png)
 
+-------------------------------------------------------------------------------------
+
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
+
 #### İki türlü kullanıcım var Rolü ***user*** ve ***admin*** olanlar.
+
+-----------------------------------------------
+
+<img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+
+#### I have two types of users Roles ***user*** and ***admin***.
+-------------------------------------------------
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
+
 #### User delete işlemi yapamıyor.Ama rolü Amin olanın bir çok yetkisi bulunmaktadır.
+
+-----------------------------------------
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
+
 #### Bu iki ekran ***ROLE_USER*** olanların görebileceği ekranlar
+
+---------------------------------------------------------------
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
+
 #### Ve her iki kullanıcı içinde filtreleme özelliği çalışmaktadır.
 
+-----------------------------------------------------
+
+----------------------------------
 ***http://localhost:8188/pet***
 
 ![image](https://user-images.githubusercontent.com/61595808/194673799-f200451a-308e-4146-96f6-ae493bf54081.png)

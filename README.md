@@ -1,6 +1,8 @@
 # Vet-App  🐇 🐩 🐱 🐶 🐈  🐟 🐦🦮 🐠 🐕 :heart_eyes_cat:  🙀 😹🐕‍🦺 🐰 🐾 🦜
 
-#####  <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/>  Kullandığım teknolojiler : Spring Boot,Spring MVC, Java, Maven, IntelliJ, Mysql, HTML, CSS,Bootstrap,XAMPP
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
+
+#####  Kullandığım teknolojiler : Spring Boot,Spring MVC, Java, Maven, IntelliJ, Mysql, HTML, CSS,Bootstrap,XAMPP
 ##### Kütüphaneler : Jpa, Thymeleaf,Spring Security,Web,MySql,DevTools
 
 <a href="https://www.youtube.com/watch?v=dC4f7DhNiPk">Youtube</a>

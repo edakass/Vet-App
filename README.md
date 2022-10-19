@@ -12,9 +12,13 @@
 ##### Technologies I use: Spring Boot, Spring MVC, Java, Maven, IntelliJ, Mysql, HTML, CSS, Bootstrap, XAMPP
 ##### Libraries: Jpa, Thymeleaf,Spring Security,Web,MySql,DevTools
 
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
+#### - Hem ***admin*** hem de ***user*** için farklı ekranlar içermektedir.
 
-#### - Hem admin hem de Kullanıcı için farklı ekranlar içermektedir.
+<img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+
+#### - Contains different screens for ***admin***  and ***User***.
 
 #### - Eğer ki daha sonra başka bir kütüphaneye ihtiyacımız olursa ise Maven sitesine giriyoruz ve ihtiyacımız olan kütüphaneyi aratıyoruz. https://mvnrepository.com/
 #### - Projemi yaparken Spring Initialzr'dan gerekli işlemleri yapıyorum. Spring Initialzr, istediğimiz gerekliliklere göre bize temel konfigürasyonları hazır bir Spring projesi üretip veren bir araçtır.  https://start.spring.io/

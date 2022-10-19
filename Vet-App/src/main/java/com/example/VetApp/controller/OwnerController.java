@@ -28,7 +28,6 @@ public class OwnerController {
         this.petService = petService;
     }
 
-    //Get(1) Post() Request()
     @RequestMapping("/owner")
     public String ownerHomePage(Owner owner, Model model, String keyword) {
         if (keyword != null) {

@@ -126,6 +126,12 @@
 
 #### NOT : Kullanmış olduğum ikonları şu linklerden aldım  <a href="https://www.w3schools.com/icons/">W3 School Icons</a> ve <a href="https://icons8.com/">ICONS8</a>
 
+--------------------------------------------------
+
+<img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+
+#### NOTE: I got the icons I used from the following links <a href="https://www.w3schools.com/icons/">W3 School Icons</a> and <a href="https://icons8. com/">ICONS8</a>
+
 ----------------
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 

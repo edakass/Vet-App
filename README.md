@@ -21,7 +21,8 @@
 #### Contains different screens for ***admin***  and ***User***.
 
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
-#### - Eğer ki daha sonra başka bir kütüphaneye ihtiyacımız olursa ise Maven sitesine giriyoruz ve ihtiyacımız olan kütüphaneyi aratıyoruz. https://mvnrepository.com/
+
+####  Eğer ki daha sonra başka bir kütüphaneye ihtiyacımız olursa ise Maven sitesine giriyoruz ve ihtiyacımız olan kütüphaneyi aratıyoruz. https://mvnrepository.com/
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
 #### - Projemi yaparken Spring Initialzr'dan gerekli işlemleri yapıyorum. Spring Initialzr, istediğimiz gerekliliklere göre bize temel konfigürasyonları hazır bir Spring projesi üretip veren bir araçtır.  https://start.spring.io/

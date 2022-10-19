@@ -6,7 +6,6 @@
 <img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
 
 
-<img src="https://img.icons8.com/color/30/000000/usa.png"/>
 
 #####  Kullandığım teknolojiler : Spring Boot,Spring MVC, Java, Maven, IntelliJ, Mysql, HTML, CSS,Bootstrap,XAMPP
 ##### Kütüphaneler : Jpa, Thymeleaf,Spring Security,Web,MySql,DevTools

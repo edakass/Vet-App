@@ -173,6 +173,12 @@
 
 #### Bu iki ekran ***ROLE_USER*** olanların görebileceği ekranlar
 
+----------------------------------------------------------------
+
+<img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+
+#### These two screens are the ones that ***ROLE_USER*** can see
+
 ---------------------------------------------------------------
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
@@ -180,36 +186,71 @@
 
 -----------------------------------------------------
 
-----------------------------------
+<img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+
+#### And the filtering feature works for both users.
+----------------------------------------
+
 ***http://localhost:8188/pet***
 
 ![image](https://user-images.githubusercontent.com/61595808/194673799-f200451a-308e-4146-96f6-ae493bf54081.png)
+
+-----------------------------------------
  
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
+
  #### mesela ben burada Lemon'u aradığımda karşıma çıkan ekran şu şekildedir.
+ 
+ -------------------------------------------------------
+ 
+ <img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+ 
+ #### for example, when I call Lemon here, the screen I see is as follows.
+ ------------------------------------------
  
  ![image](https://user-images.githubusercontent.com/61595808/194673879-d1cef314-5852-4bd2-bad5-618c8e70e411.png)
 
+-------------------------------------------------------
 ***http://localhost:8188/owner***
 
 ![image](https://user-images.githubusercontent.com/61595808/194673916-b570f27b-8cef-47b4-b8b9-bf17f771ce84.png)
+
+-------------------------------------------------------
+
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
+
 #### Şimdi ki ekran da ise göreceğiniz üzere delete işlemi yapılmaktadır. Bu da Rolü Admin olanların göreceği ve işlemleri gerçekleştirdikleri ekrandır.
 
+--------------------------------------------------
+
+ <img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+ 
+ #### As you can see on the next screen, the delete operation is performed. This is the screen that the Admin Role will see and perform the operations.
+ 
+-----------------------------
 ***http://localhost:8188/pet***
 
 ![image](https://user-images.githubusercontent.com/61595808/194674094-1ef4ef32-c91a-4af1-91f2-82ba9743259b.png)
+
+--------------------------------
 
 ***http://localhost:8188/owner***
 
 ![image](https://user-images.githubusercontent.com/61595808/194674102-b014824f-9c61-4c90-9026-407b944f4d11.png)
 
+------------------------------------
+
 ***http://localhost:8188/settings***
 
 ![image](https://user-images.githubusercontent.com/61595808/194674122-ab545450-8079-4271-80b5-82cb8ea16449.png)
 
+------------------------------------
+
 ***http://localhost:8188/login?logout***
 
 ![image](https://user-images.githubusercontent.com/61595808/194675040-4936a102-ac26-44f1-a313-3e60dd53bb82.png)
+
+------------------------------------
 
 ***http://localhost:8188/detail/4***
 

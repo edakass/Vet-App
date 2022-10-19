@@ -161,9 +161,14 @@
 -------------------------------------------------
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
-#### User delete işlemi yapamıyor.Ama rolü Amin olanın bir çok yetkisi bulunmaktadır.
+#### User delete işlemi yapamıyor.Ama rolü ***Admin*** olanın bir çok yetkisi bulunmaktadır.
 
 -----------------------------------------
+<img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+
+#### User cannot delete. But the role of ***Admin*** has many privileges.
+--------------------------------
+
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
 #### Bu iki ekran ***ROLE_USER*** olanların görebileceği ekranlar

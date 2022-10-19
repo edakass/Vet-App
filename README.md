@@ -18,20 +18,25 @@
 
 <img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
 
-#### - Contains different screens for ***admin***  and ***User***.
+#### Contains different screens for ***admin***  and ***User***.
 
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 #### - Eğer ki daha sonra başka bir kütüphaneye ihtiyacımız olursa ise Maven sitesine giriyoruz ve ihtiyacımız olan kütüphaneyi aratıyoruz. https://mvnrepository.com/
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
+
 #### - Projemi yaparken Spring Initialzr'dan gerekli işlemleri yapıyorum. Spring Initialzr, istediğimiz gerekliliklere göre bize temel konfigürasyonları hazır bir Spring projesi üretip veren bir araçtır.  https://start.spring.io/
 #### - ![image](https://user-images.githubusercontent.com/61595808/193000652-8f500b31-0004-4035-90cb-ae0e33f1e7f3.png)
 
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 #### - İndirmiş olduğum zip dosyasını IntelliJ de açıyorum.Veri tabanı şlemlerimi gerçekleştirmek için, XAMPP programını kullanmam lazım. Çünkü ben projemde phpMyAdmin kullanıyorum.
 
 ![image](https://user-images.githubusercontent.com/61595808/193001399-d0ebebb1-985c-422a-b88f-d72e65bffb9c.png)
 
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 #### - Şimdi ise veritabanını oluşturuyorum.  ismi : vet-app
 #### - application.properties 'te eklemem gerekenleri ekliyorum,burada web de hangi url de kullanacağımı,veritabanım için yolunu gibi bilgiler eklediğim kısım 
 ![image](https://user-images.githubusercontent.com/61595808/193003476-7c184009-0d3f-4dee-8bc5-75397ca29ab2.png)
-
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 #### - Programımızı çalıştırırken ilk bu ekrandan çalıştırmamız gerekiyor.
 ![image](https://user-images.githubusercontent.com/61595808/193004965-c250e8ef-13a5-4921-a8cb-8c74d8a3ce97.png)
 
@@ -71,13 +76,13 @@
 
 ![image](https://user-images.githubusercontent.com/61595808/194673745-1b5fad10-addf-4005-ada7-45f6d865b7d5.png)
 
-
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 #### İki türlü kullanıcım var Rolü ***user*** ve ***admin*** olanlar.
-
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 #### User delete işlemi yapamıyor.Ama rolü Amin olanın bir çok yetkisi bulunmaktadır.
-
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 #### Bu iki ekran ***ROLE_USER*** olanların görebileceği ekranlar
-
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 #### Ve her iki kullanıcı içinde filtreleme özelliği çalışmaktadır.
 
 ***http://localhost:8188/pet***
@@ -91,7 +96,7 @@
 ***http://localhost:8188/owner***
 
 ![image](https://user-images.githubusercontent.com/61595808/194673916-b570f27b-8cef-47b4-b8b9-bf17f771ce84.png)
-
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 #### Şimdi ki ekran da ise göreceğiniz üzere delete işlemi yapılmaktadır. Bu da Rolü Admin olanların göreceği ve işlemleri gerçekleştirdikleri ekrandır.
 
 ***http://localhost:8188/pet***
@@ -116,12 +121,23 @@
 
 
 --------------------
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
+
 #### NOT : Kullanmış olduğum ikonları şu linklerden aldım  <a href="https://www.w3schools.com/icons/">W3 School Icons</a> ve <a href="https://icons8.com/">ICONS8</a>
 
 ----------------
+<img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
 ***İncelediğiniz için teşekkür ederim.*** 💜
 
 ***Öneriniz ve sormak istediğiniz bir şey olursa sormaktan lütfen çekinmeyin.*** 💁
 
 ***Saygılarımla*** ⭐
+
+
+<img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
+***Thank you for viewing.*** 💜
+
+***If you have any suggestions or anything you want to ask, please feel free to ask.*** 💁
+
+***Kind regards*** ⭐

@@ -59,12 +59,13 @@
 ----------------------------------------------------------
 
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
-#### - İndirmiş olduğum zip dosyasını IntelliJ de açıyorum.Veri tabanı şlemlerimi gerçekleştirmek için, XAMPP programını kullanmam lazım. Çünkü ben projemde phpMyAdmin kullanıyorum.
+
+#### İndirmiş olduğum zip dosyasını IntelliJ de açıyorum.Veri tabanı şlemlerimi gerçekleştirmek için, XAMPP programını kullanmam lazım. Çünkü ben projemde phpMyAdmin kullanıyorum.
 ----------------------------------------------------------
 
 <img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
 
-#### - I download the zip file, then open the file in IntelliJ. To perform database operations, I need to use the XAMPP program. Because I am using phpMyAdmin in my project.
+#### I download the zip file, then open the file in IntelliJ. To perform database operations, I need to use the XAMPP program. Because I am using phpMyAdmin in my project.
 
 ---------------------------------------------------------------
 
@@ -73,15 +74,15 @@
 ---------------------------------------------------------------------------------
 <img src="https://img.icons8.com/emoji/30/000000/turkey-flag-emoji.png"/> 
 
-#### - Şimdi ise veritabanını oluşturuyorum.  ismi : vet-app
-#### - application.properties 'te eklemem gerekenleri ekliyorum,burada web de hangi url de kullanacağımı,veritabanım için yolunu gibi bilgiler eklediğim kısım 
+#### Şimdi ise veritabanını oluşturuyorum.  ismi : vet-app
+#### application.properties 'te eklemem gerekenleri ekliyorum,burada web de hangi url de kullanacağımı,veritabanım için yolunu gibi bilgiler eklediğim kısım 
 
 -------------------------------------------------------------------
 
 <img src="https://img.icons8.com/emoji/30/000000/us-outlying-islands-emoji.png"/>
 
-#### - Now I am creating the database. name : vet-app
-#### - I add what I need to add in application.properties, here is the part where I add information such as which url to use on the web, the path for my database.
+#### Now I am creating the database. name : vet-app
+#### I add what I need to add in application.properties, here is the part where I add information such as which url to use on the web, the path for my database.
 
 
 -----------------------------------------

@@ -15,5 +15,4 @@ public interface PetRepository extends JpaRepository<Pet,Long> {
 
     @Query(value ="select * from pet p where p.owner_id = :id", nativeQuery = true)
     List<Pet> getByOwnerId(@Param("id") Long id);
-
 }
